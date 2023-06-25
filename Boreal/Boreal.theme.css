@@ -1,17 +1,17 @@
 /**
- * @name         BorealFix
- * @description  Enjoy Discord over a calm peaceful lake under the northern lights. Converted to new Discord classes by Saltssaumure. Donation and invite links belong to rmkx. 
- * @donate       https://bit.ly/3fnzq1Z
- * @source       https://saltssaumure.github.io/rmkx-theme-fix/
- * @author       rmkx
- * @invite       uy8nKQVatp
- * @version      1.0.2
- */
+ * @name        BorealFix
+ * @author      Saltssaumure | v1.0 by rmkx
+ * @description Enjoy Discord over a calm peaceful lake under the northern lights. 
+ * @version     2.0
+ * @invite      uy8nKQVatp
+ * @source      https://github.com/MiniDiscordThemes/rmkx
+ * @donate      https://ko-fi.com/saltssaumure
+*/
 
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position (you need to set its bg to transparent*/
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/src/hideChannels.css'); /*Comment line if you don't want servers' channels to hide*/
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/Boreal/src/boreal.css'); /*Main CSS sheet*/
+@import url('https://minidiscordthemes.github.io/rmkx/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position (you need to set its bg to transparent*/
+@import url('https://minidiscordthemes.github.io/rmkx/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
+@import url('https://minidiscordthemes.github.io/rmkx/src/hideChannels.css'); /*Comment line if you don't want servers' channels to hide*/
+@import url('https://minidiscordthemes.github.io/rmkx/Boreal/src/boreal.css'); /*Main CSS sheet*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Put your font url here*/
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
@@ -27,7 +27,7 @@
     /*Background of the elements when showing*/
     --showing-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
     
-    --background-image: url(https://saltssaumure.github.io/rmkx-theme-fix/Boreal/img/borealbg.jpg); /*Changes the background image*/
+    --background-image: url(https://minidiscordthemes.github.io/rmkx/Boreal/img/borealbg.jpg); /*Changes the background image*/
     --bg-blur: 0px; /*changes the blur of the background image*/
     --main-accent: rgb(35, 77, 117); /*Main accent of the theme for little elements*/
     --main-accent-rgb: 35, 77, 117; /*RGB code of main accent for some elements, change this if you change main accent*/

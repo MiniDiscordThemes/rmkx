@@ -11,17 +11,17 @@
         "liveSassCompile.settings.formats": [
             {
                 "format": "compressed",
-                "extensionName": ".min.css",
-                "savePath": "/"
+                "extensionName": ".css",
+                "savePath": "~/../src"
             },
             {
                 "format": "expanded",
                 "extensionName": ".theme.css",
-                "savePath": "../Theme Folder" // on Windows desktop
+                "savePath": "../../Theme Folder" // on Windows desktop
             }
         ],
         "liveSassCompile.settings.generateMap": false,
-        "liveSassCompile.settings.showOutputWindowOn": "Information",
+        "liveSassCompile.settings.showOutputWindowOn": "Error",
         "liveSassCompile.settings.watchOnLaunch": true,
     }
 }

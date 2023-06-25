@@ -1,14 +1,14 @@
 /**
- * @name         Lluna Plena Fix
- * @description  Clean dark Discord theme. Converted to new Discord classes by Saltssaumure. Donation links belong to rmkx. 
- * @donate       https://bit.ly/3fnzq1Z
- * @source       https://github.com/Saltssaumure/rmkx-theme-fix
- * @invite       uy8nKQVatp
- * @author       rmkx
- * @version      1.0.1 
- */
+ * @name        LlunaPlenaFix
+ * @author      Saltssaumure | v1.0 by rmkx
+ * @description Clean dark Discord theme.
+ * @version     2.0
+ * @invite      uy8nKQVatp
+ * @source      https://github.com/MiniDiscordThemes/rmkx
+ * @donate      https://ko-fi.com/saltssaumure
+*/
 
-@import url(https://saltssaumure.github.io/rmkx-theme-fix/LlunaPlena/src/llunaplena.css);
+@import url(https://minidiscordthemes.github.io/rmkx/LlunaPlena/src/llunaplena.css);
 
 :root {
     --channel-color: #293f47; /* Selected channel and background color | Default #293f47;*/

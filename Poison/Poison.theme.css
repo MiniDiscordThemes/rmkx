@@ -1,23 +1,23 @@
 /**
-* @name         PoisonFix
-* @description  Enjoy Discord with a stylish dark theme with vibrant green elements. Converted to new Discord classes by Saltssaumure. Donation links belong to rmkx. 
-* @donate       https://bit.ly/3fnzq1Z
-* @source       https://github.com/Saltssaumure/rmkx-theme-fix
-* @author       rmkx
-* @invite       uy8nKQVatp
-* @version      1.0.2 
+ * @name        PoisonFix
+ * @author      Saltssaumure | v1.0 by rmkx
+ * @description Enjoy Discord with a stylish dark theme with vibrant green elements.
+ * @version     2.0
+ * @invite      uy8nKQVatp
+ * @source      https://github.com/MiniDiscordThemes/rmkx
+ * @donate      https://ko-fi.com/saltssaumure
 */
 
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/src/avatarStyle.css'); /*Avatar's style mini-theme*/
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position*/
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/Poison/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
+@import url('https://minidiscordthemes.github.io/rmkx/src/avatarStyle.css'); /*Avatar's style mini-theme*/
+@import url('https://minidiscordthemes.github.io/rmkx/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position*/
+@import url('https://minidiscordthemes.github.io/rmkx/Poison/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); /*Import fonts*/
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/Poison/src/poison.css'); /*Main theme import*/
+@import url('https://minidiscordthemes.github.io/rmkx/Poison/src/poison.css'); /*Main theme import*/
 
 :root {
     /*Background settings*/
-    --background-image: url('https://saltssaumure.github.io/rmkx-theme-fix/Poison/img/snakebg.jpg'); /*Background image*/
-    --menu-bg: url('https://saltssaumure.github.io/rmkx-theme-fix/Poison/img/menubg.png'); /*Background image for some panels, like right click*/
+    --background-image: url('https://minidiscordthemes.github.io/rmkx/Poison/img/snakebg.jpg'); /*Background image*/
+    --menu-bg: url('https://minidiscordthemes.github.io/rmkx/Poison/img/menubg.png'); /*Background image for some panels, like right click*/
     --bg-blur: 0px; /*Background blur | Default 0px*/
     --bg-opacity: 0.4; /*Background opacity | Default 0.4*/
 
@@ -40,7 +40,6 @@
     --selection-color: rgba(var(--main-accent), 1); /*Changes the color of the selected text | Default rgba(var(--main-accent), 1)*/
     --scrollbar-color: rgba(var(--main-accent), 0.4); /*Changes the color of the scrollbar | Default rgba(var(--main-accent), 0.4)*/
     --icon-padding: 35px; /*Changes the padding between the icon and the text | Default 35px*/
-
 
     /*Font*/
     --font: 'Fjalla One', sans-serif; /*Main font*/

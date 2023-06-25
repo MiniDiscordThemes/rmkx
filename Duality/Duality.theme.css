@@ -1,31 +1,31 @@
 /**
-* @name         DualityFix
-* @description  Enjoy Discord with a theme based on elements that "pop out" of the screen. Converted to new Discord classes by Saltssaumure. Donation links belong to rmkx. 
-* @donate       https://bit.ly/3fnzq1Z
-* @source       https://github.com/Saltssaumure/rmkx-theme-fix
-* @author       rmkx
-* @invite       uy8nKQVatp
-* @version      1.0.2
+ * @name        DualityFix
+ * @author      Saltssaumure | v1.0 by rmkx
+ * @description Enjoy Discord with a theme based on elements that "pop out" of the screen.
+ * @version     2.0
+ * @invite      uy8nKQVatp
+ * @source      https://github.com/MiniDiscordThemes/rmkx
+ * @donate      https://ko-fi.com/saltssaumure
 */
 
-@import url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/src/duality.css');
+@import url('https://minidiscordthemes.github.io/rmkx/Duality/src/duality.css');
 
 :root {
 
     /*Background settings*/
 
-    --app-background: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/appbg.jpg'); /*App background*/
+    --app-background: url('https://minidiscordthemes.github.io/rmkx/Duality/img/appbg.jpg'); /*App background*/
     --app--bg-opacity: 0.40; /*App background opacity*/
-    --background-image: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/mainbg.jpg'); /*Main background image*/
+    --background-image: url('https://minidiscordthemes.github.io/rmkx/Duality/img/mainbg.jpg'); /*Main background image*/
     --bg-blur: 0px; /*Main background blur*/
     --bg-opacity: 0; /*Main background opacity*/
-    --popout-bg: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/popoutbg.png'); /*Background for popouts*/
+    --popout-bg: url('https://minidiscordthemes.github.io/rmkx/Duality/img/popoutbg.png'); /*Background for popouts*/
     --popout-blur: 0px; /*Popout background blur*/
     --popout-opacity: 0; /*Popout background opacity*/
 
     /*General Settings*/
 
-    --home-icon-image: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/homeicon.gif'); /*Home icon*/
+    --home-icon-image: url('https://minidiscordthemes.github.io/rmkx/Duality/img/homeicon.gif'); /*Home icon*/
     --main-dark-color: 21, 21, 21; /*Main dark color of the theme | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 21, 21, 21*/
     --scrollbar-dark-color: 6, 6, 6; /*Main dark color of the theme | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 21, 21, 21*/
     --window-padding: 50px; /*Change to modify window size | Default 50px*/

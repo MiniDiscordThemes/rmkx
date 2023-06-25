@@ -1,0 +1,7 @@
+.github
+LICENSE
+*.md
+*.code-workspace
+
+src
+*.theme.css
