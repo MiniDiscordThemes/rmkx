@@ -1,14 +1,6 @@
-/**
- * @name         BorealFix - Test
- * @author       Saltssaumure | v1.0 by rmkx
- * @description  https://github.com/MiniDiscordThemes/rmkx
- * @source       https://github.com/MiniDiscordThemes/rmkx
- * @version      2.0.0
-*/
-
-@import url("https://minidiscordthemes.github.io/rmkx/src/transparentDiscord.css");
-@import url("https://minidiscordthemes.github.io/rmkx/src/settingsIcons.css");
-@import url("https://minidiscordthemes.github.io/rmkx/src/customBadges.css");
+@use "meta";
+@use "../../src/transparentDiscord";
+@use "../../src/settingsIcons";
 
 :root {
     --server-hiding-width: 2.5%; /*Amount that will be shown when the channels panel hides | Default 50px*/
