@@ -1,0 +1,218 @@
+/**
+* @name         Avatar Styles
+* @description  Changes the avatar's radius and shows user status as a bar underneath.
+* @donate       https://bit.ly/3fnzq1Z
+* @source       https://github.com/Saltssaumure/rmkx-theme-fix/blob/main/src/avatarStyle.css
+* @author       rmkx
+* @invite       uy8nKQVatp
+* @version      1.0 
+*/
+
+
+:root {
+    --avatar-radius: 0%;
+    --user-card-width: 280px;
+}
+#app-mount .wrapper-1VLyxH svg:not(:root) { /*Makes the status bar show*/
+    overflow: visible;
+}
+
+/*Avatars*/
+.userInfo-2WpsYG .avatar-2MSPKk svg foreignObject { /*Modifies avatar on friends list*/
+    mask: none;
+    border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) foreignObject { /*Modifies avatar on server members*/
+    mask: none;
+    border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.userPopout-2j1gM4 { /*User popout width*/
+    width: var(--user-card-width)!important;
+}
+.headerTop-3GPUSF { /*User card info*/
+    margin-top: 240px;
+}
+.profileBadges-2pItdR { /*User card badges*/
+    top: 52px;
+}
+.avatarPositionNormal-2jWoC2 { /*User card avatar position*/
+    top: 60px;
+    left: 0;
+    border-radius: 0;
+}
+.avatarPositionPremium-1zPBq9 { /*User card nitro position*/
+    top: 120px;
+    left: 0;
+}
+.avatar-2Vndt_ svg foreignObject { /*User card avatar mask*/
+    mask: none;
+}
+.avatar-2Vndt_ { /*Avatar dimensions*/
+    width: var(--user-card-width)!important;
+    height: var(--user-card-width)!important;
+    border: none;
+}
+.avatarHint-k7pYop { /*View profile hint*/
+    top: 0;
+    left: 0;
+    width: var(--user-card-width)!important;
+    height: var(--user-card-width)!important;
+}
+.avatarHint-k7pYop foreignObject { /*View profile hint mask*/
+    mask: none;
+}
+.avatar-2e8lTP.clickable-31pE3P { /*Chat avatar*/
+    border-radius: var(--avatar-radius);
+}
+.container-YkUktl .avatar-1EWyVD svg foreignObject { /*Status bar avatar*/
+    mask: none;
+    border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.repliedMessage-3Z6XBG .replyAvatar-sHd2sU { /*Reply avatar*/
+    border-radius: var(--avatar-radius);
+}
+.wrapper-28eC3z svg foreignObject { /*Server icons*/
+    mask: none;
+    border-radius: var(--avatar-radius);
+}
+.headerAvatar-GgCKcl svg foreignObject{ /*Active now icons*/
+    mask: none;
+    border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.avatar-3QF_VA svg foreignObject { /*Profile avatar*/
+    mask: none;
+    border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/*User status*/
+.userInfo-2WpsYG .avatar-2MSPKk svg > :last-child:not(foreignObject) { /*Modifies the user status on friends list*/
+    mask: none;
+    x: 32;
+    y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.userInfo-2WpsYG .avatar-2MSPKk svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on friends list*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.userInfo-2WpsYG .avatar-2MSPKk svg > svg:not(foreignObject) { /*Status changed on friends list*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}
+.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) > :last-child:not(foreignObject) { /*Modifies userstatus on server members*/
+    mask: none;
+    x: 32;
+    y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on server members/DMs*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+    transform: rotate(0deg);
+}
+.avatar-6qzftW svg > svg:not(foreignObject) { /*Status changed on server members/DMs*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}
+.avatarWrapper-eenWra .wrapper-1VLyxH svg > :last-child:not(foreignObject) { /*User card status*/
+    mask: none;
+    y: -80;
+    x: 79.75;
+    transform: rotate(90deg);
+    width: 3px;
+    height: 100%;
+}
+.avatarWrapper-eenWra .wrapper-1VLyxH svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*User card status changed settings*/
+    mask: none;
+    width: 200%;
+    height: 4px;
+    y: 28!important;
+    x: -48!important;
+    transform: rotate(0deg);
+}
+.avatarWrapper-eenWra .wrapper-1VLyxH svg > svg:not(foreignObject) { /*User card status changed*/
+    x: 0!important;
+    y: 15!important;
+    width: 100%!important;
+}
+.container-YkUktl .avatar-1EWyVD svg > :last-child:not(foreignObject) { /*Status bar status*/
+    mask: none;
+    width: 80%;
+    height: 4px;
+    y: 32;
+    x: 0;
+}
+.container-YkUktl .avatar-1EWyVD svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed settings*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.container-YkUktl .avatar-1EWyVD svg > svg:not(foreignObject) { /*Status changed settings*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}
+.headerAvatar-GgCKcl svg > :last-child:not(foreignObject) { /*Active now status*/
+    mask: none;
+    x: 32;
+    y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.headerAvatar-GgCKcl svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on active now*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.headerAvatar-GgCKcl svg > svg:not(foreignObject) { /*Status changed on active now*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}
+.avatar-3QF_VA svg > :last-child:not(foreignObject) { /*Profile status*/
+    mask: none;
+    x: 76;
+    y: -80;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.avatar-3QF_VA svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on profile*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.avatar-3QF_VA svg > svg:not(foreignObject) { /*Status changed on profile*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}

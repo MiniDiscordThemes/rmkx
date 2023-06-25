@@ -1,0 +1,103 @@
+/**
+ * @name         Hidden Server Members
+ * @description  Hides server members.
+ * @donate       https://bit.ly/3fnzq1Z
+ * @source       https://github.com/Saltssaumure/rmkx-theme-fix/blob/main/src/hideMembers.css
+ * @author       rmkx
+ * @version      1.0 
+ */
+
+:root {
+    --members-hiding-width: 2.9%; /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
+    --showing-width: 13.5%; /*Amount that will be shown when the panels show | Default 13.5%*/
+    --hidden-background: transparent; /*Background of the elements when hidden*/
+    --showing-background: transparent;/*Background of the elements when showing*/
+    --transition-speed: 0.35s; /*Changes the transition speed*/
+}
+
+/*Hides server members list*/
+.container-2o3qEW {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: var(--members-hiding-width);
+    min-width: unset;
+    justify-content: unset;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
+}
+.bd-minimal .container-2o3qEW { /*Minimal mode server members hiding*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: var(--members-hiding-width);
+    min-width: unset;
+    justify-content: unset;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
+}
+.membersGroup-2eiWxl { /*Hides the member's role*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    color: transparent;
+    transition: color var(--transition-speed) ease-in;
+    will-change: color;
+}
+.member-2gU6Ar { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+
+/*Shows the server members list*/
+.container-2o3qEW:hover { /*Shows server's members*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: var(--showing-width);
+    will-change: width;
+}
+.bd-minimal .container-2o3qEW:hover { /*Minimal mode server members showing*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: calc(var(--showing-width) - 1.9%);
+    will-change: width;
+}
+.container-2o3qEW:hover .membersGroup-2eiWxl{ /*Shows members roles when hovering*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    color: white;
+    will-change: color;
+}

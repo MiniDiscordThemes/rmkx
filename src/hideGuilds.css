@@ -1,0 +1,57 @@
+/**
+ * @name         Hidden Discord Guilds
+ * @description  Hides and centers the guilds pannel on the bottom middle of the screen.
+ * @donate       https://bit.ly/3fnzq1Z
+ * @source       https://github.com/Saltssaumure/rmkx-theme-fix/blob/main/src/hideGuilds.css
+ * @author       rmkx
+ * @version      1.0 
+ */
+
+.wrapper-1_HaEi { /*Guild wrapper*/
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 3;
+    width: 900px;
+    height: 12.5px;
+    transition: 250ms ease-in;
+}
+.tree-3agP2X { /*Guild subcontainer*/
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(270deg);
+    height: 900px;
+    width: 12.5px;
+    transition: 250ms ease-in; 
+}
+.wrapper-1_HaEi:hover { /*Guild wrapper hover*/
+    height: 69px;
+}
+.wrapper-1_HaEi:hover .tree-3agP2X { /*Guild subcontainer hover*/
+    width: 69px;
+}
+.scroller-3X7KbA { /*Centers server icons on the guild bar*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapper-28eC3z { /*Server Icon*/
+    transform: rotate(90deg);
+}
+
+/*DevilBro's Server Folder compatibility*/
+.wrapper-1_HaEi.content-Pph8t6 { /*Main folder modal when hidden*/
+    position: absolute;
+    width: 900px;
+    transform: translateX(-50%) translateY(-12.5px);
+    z-index: 2;
+}
+.content-Pph8t6.closed-j55_T- { /*Folder modal when closed*/
+    visibility: hidden;
+}
+.wrapper-1_HaEi.content-Pph8t6:hover:not(.hidden-10MsGQ) { /*Main folder modal expanded*/
+    position: absolute;
+    transform: translateX(-50%) translateY(-12.5px);
+}

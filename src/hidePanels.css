@@ -1,0 +1,202 @@
+/**
+ * @name         Hide Discord Panels
+ * @description  Hides the Friends, Server Channel and Server Members panels with some animations.
+ * @donate       https://bit.ly/3fnzq1Z
+ * @source       https://github.com/Saltssaumure/rmkx-theme-fix/blob/main/src/hidePanels.css
+ * @author       rmkx
+ * @version      1.0 
+ */
+
+:root {
+    --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
+    --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
+    --hidden-background: transparent; /*Background of the elements when hidden*/
+    --showing-background: transparent;/*Background of the elements when showing*/
+}
+
+@keyframes selectedChannel {
+    0% {
+        background: var(--hidden-background);
+    }
+    100% {
+        background: var(--showing-background);
+    }
+}
+
+/*Hides server members list*/
+.membersWrap-3NUR2t {
+    width: var(--members-hiding-width);
+    min-width: unset;
+    justify-content: unset;
+    transition: width 0.35s ease-in;
+}
+.membersGroup-2eiWxl { /*Hides the member's role*/
+    color: transparent;
+    transition: color 0.35s ease-in;
+}
+.member-2gU6Ar { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+
+/*Shows the server members list*/
+.membersWrap-3NUR2t:hover { /*Shows server's members*/
+    width: var(--showing-width);
+}
+.membersWrap-3NUR2t:hover .membersGroup-2eiWxl{ /*Shows members roles when hovering*/
+    color: white;
+}
+
+/*Hides the server's channel list*/
+.sidebar-1tnWFu {
+    width: var(--server-hiding-width);
+    transition: width 0.35s ease-in;
+}
+.content-1gYQeQ { /*Moves chanels to the left for aesthetic purposes*/
+    padding-left: 8px;
+    margin-left: 5px;
+}
+.mainContent-uDGa6R .overflow-1wOqNV, .icon-3zI3d2{ /*Hides the channel group*/
+    color: transparent;
+    transition: color 0.35s ease;
+}
+.wrapper-2fEmwW { /*Hides the amount of people in a voice channel when hidden*/
+    visibility: hidden;
+    transition: visibility 0.15s ease;
+}
+.containerDefault-3TQ5YN { /*Removes padding between channels when hidden for aesthetical purposes*/
+    padding: 0px;
+    transition: padding 0.35s ease;
+}
+.container-1oeRFJ.channel-1Shao0{ /*Moves the online friends list to the left for aesthetical purposes*/
+    margin-left: 0px;
+}
+.layout-1qmrhw.channel-1Shao0 { /*Moves the online friends list to the left for aesthetical purposes*/
+    padding-left: 0px;
+}
+.containerDefault-YUSmu3 { /*Server channel normal background*/
+    background: var(--hidden-background);
+    background-color: var(--hidden-background);
+}
+.selected-1-Z6gm.container-1oeRFJ { /*Selected friend settings*/
+    background: var(--hidden-background);
+    background-color: var(--hidden-background);
+}
+.containerDefault-YUSmu3 .modeSelected-3DmyhH { /*Selected server channel background*/
+    background: var(--hidden-background);
+    background-color: var(--hidden-background);
+}
+.voiceUserSummary-huJ8Md { /*Voice Channels when collapsed*/
+    background: var(--hidden-background);
+    background-color: var(--hidden-background);
+}
+.actionIcon-2sw4Sl { /*Hides the invite to channel button when panel is hidden*/
+    color: transparent;
+    transition: color 0.35s ease;
+}
+.listeningAlong-6YvYsc { /*Hides the listening along panel*/
+    height: 0px;
+    visibility: hidden;
+    padding: 0px;
+    transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
+}
+.container-1zzFcN { /*Hides the connected channel panel*/
+    height: 0px;
+    visibility: hidden;
+    padding: 0px;
+    transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
+}
+.activityPanel-9icbyU { /*Hides the sharing screen panel*/
+    height: 0px;
+    visibility: hidden;
+    padding: 0px;
+    transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
+}
+.list-2x9Cl9 { /*Moves people connected to a voice channel when hidden*/
+    padding-left: 5px;
+    transition: padding 0.35s ease;
+}
+.addButton-2mlqCW { /*Hides the add channel in the channel list*/
+    color: transparent;
+    transition: color 0.35s ease;
+}
+.listDefault-2F-w65 .avatarContainer-3FF_Km { /*Centers the avatars of peole connected to a vc even more*/
+    margin-left: 5px;
+}
+.mentionsBadge-2ckrKL { /*Mentioned in a channel*/
+    top: 15px;
+    left: 7px;
+    transition: left 0.35s ease-in, top 0.35s ease-in;
+}
+.header-3OsQeK { /*Server name*/
+    width: 42px;
+    transition: width 0.35s ease-in;
+}
+.button-2BMPJJ { /* Arrow button*/
+    margin-left: -3px;
+}
+.privateChannelsHeaderContainer-1UWASm, .privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y { /*New Direct Message text*/
+    color: transparent;
+    transition: color 0.35s ease;
+}
+
+/*Shows the server's channel list*/
+.sidebar-1tnWFu:hover {
+    width: var(--showing-width);
+}
+.sidebar-1tnWFu:hover .mainContent-uDGa6R .overflow-1wOqNV, .sidebar-1tnWFu:hover .mainContent-uDGa6R .icon-3zI3d2{  /*Shows channel group*/
+    color: white;
+}
+.sidebar-1tnWFu:hover .containerDefault-3TQ5YN { /*Animates the movement of the channel groups when they show*/
+    padding: 4px;
+}
+.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .actionIcon-2sw4Sl { /*Shows the invite to channel button when panel is hovered*/
+    color: white;
+}
+.sidebar-1tnWFu:hover .listeningAlong-6YvYsc { /*Shows the listening along panel*/
+    padding: 8px;
+    height: auto;
+    visibility: visible;
+}
+.sidebar-1tnWFu:hover .activityPanel-9icbyU { /*Shows the sharing screen panel*/
+    padding: 8px;
+    height: auto;
+    visibility: visible;
+}
+.sidebar-1tnWFu:hover .container-1zzFcN { /*Shows the connected channel panel*/
+    padding: 8px;
+    height: auto;
+    visibility: visible;
+}
+.sidebar-1tnWFu:hover .selected-1-Z6gm.container-1oeRFJ { /*Selected showing settings*/
+    animation: selectedChannel 0.35s ease;
+    animation-fill-mode: forwards;
+}
+.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .modeSelected-3DmyhH { /*Selected server channel showing background*/
+    animation: selectedChannel 0.35s ease;
+    animation-fill-mode: forwards;
+}
+.sidebar-1tnWFu:hover .voiceUserSummary-huJ8Md { /*Showing collapsed voice chanels on server*/
+    background-color: transparent;
+    background: transparent;
+}
+.sidebar-1tnWFu:hover .wrapper-2fEmwW { /*Showing the amount of people in a voice channel*/
+    visibility: visible;
+}
+.sidebar-1tnWFu:hover .list-2x9Cl9 { /*Moves the connected users in a voice channel back to default place*/
+    padding-left: 36px;
+}
+.sidebar-1tnWFu:hover .addButton-2mlqCW { /*Shows the add server button on the channels list*/
+    color: white;
+}
+.sidebar-1tnWFu:hover .mentionsBadge-2ckrKL { /*Mentioned in a channel when hovering*/
+    left: initial;
+    top: initial;
+}
+.sidebar-1tnWFu:hover .header-3OsQeK { /*Showing server name*/
+    width: var(--showing-width);
+}
+.sidebar-1tnWFu:hover .content-2a4AW9 .privateChannelsHeaderContainer-1UWASm, .sidebar-1tnWFu:hover .privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y { /*Shows DM text*/
+    color: white;
+}

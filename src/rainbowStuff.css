@@ -1,0 +1,57 @@
+@keyframes unreadRainbow { /*animation*/
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.wrapper-NhbLHG.modeUnread-3Cxepe .name-28HaxV { /*Rainbow animated text*/
+    background: linear-gradient(60deg,
+    rgb(94, 133, 241),
+    rgb(165, 94, 241),
+    rgb(241, 94, 207),
+    rgb(241, 94, 97),
+    rgb(241, 202, 94),
+    rgb(170, 241, 94),
+    rgb(94, 241, 128),
+    rgb(94, 241, 239)
+    );
+    color: transparent;
+    background-size: 200% 200%;
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: unreadRainbow 4s infinite;
+}
+.wrapper-28eC3z foreignObject { /*Round server channels*/
+    mask: unset;
+    border-radius: 50%;
+}
+.pill-1z4sAY { /*Makes ring visible*/
+    overflow: visible!important;
+}
+.item-2LIpTv[style*="height: 8px"] { /*Unread server ring*/
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 14px;
+    width: 52px;
+    height: 52px!important;
+    border-radius: 50%;
+    background: linear-gradient(60deg,
+    rgb(94, 133, 241),
+    rgb(165, 94, 241),
+    rgb(241, 94, 207),
+    rgb(241, 94, 97),
+    rgb(241, 202, 94),
+    rgb(170, 241, 94),
+    rgb(94, 241, 128),
+    rgb(94, 241, 239)
+    );
+    background-size: 200% 200%;
+    background-position: 0 50%;
+    animation: unreadRainbow 4s infinite;
+    transition: 0.25s ease;
+}
+.wrapper-3kah-n { /*Matches png server icons with default background*/
+    background-color: var(--background-tertiary);
+}

@@ -1,0 +1,42 @@
+/**
+* @name         DualityFix
+* @description  Enjoy Discord with a theme based on elements that "pop out" of the screen. Converted to new Discord classes by Saltssaumure. Donation links belong to rmkx. 
+* @donate       https://bit.ly/3fnzq1Z
+* @source       https://github.com/Saltssaumure/rmkx-theme-fix
+* @author       rmkx
+* @invite       uy8nKQVatp
+* @version      1.0.2
+*/
+
+@import url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/src/duality.css');
+
+:root {
+
+    /*Background settings*/
+
+    --app-background: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/appbg.jpg'); /*App background*/
+    --app--bg-opacity: 0.40; /*App background opacity*/
+    --background-image: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/mainbg.jpg'); /*Main background image*/
+    --bg-blur: 0px; /*Main background blur*/
+    --bg-opacity: 0; /*Main background opacity*/
+    --popout-bg: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/popoutbg.png'); /*Background for popouts*/
+    --popout-blur: 0px; /*Popout background blur*/
+    --popout-opacity: 0; /*Popout background opacity*/
+
+    /*General Settings*/
+
+    --home-icon-image: url('https://saltssaumure.github.io/rmkx-theme-fix/Duality/img/homeicon.gif'); /*Home icon*/
+    --main-dark-color: 21, 21, 21; /*Main dark color of the theme | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 21, 21, 21*/
+    --scrollbar-dark-color: 6, 6, 6; /*Main dark color of the theme | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 21, 21, 21*/
+    --window-padding: 50px; /*Change to modify window size | Default 50px*/
+    --window-border-radius: 12px; /*Modifies the main window border-radius | Default 12px*/
+    --main-radius: 12px; /*Modifies the border-radius of most elements | Default 12px*/
+    --settings-width: 60%; /*Width for the settings window | Default 60%*/
+    --settings-heigth: 85%; /*Width for the settings window | Default 85%*/
+    --embed-border: 0px; /*Makes it so some embeds in chat have their corresponding border | 0px = no borders*/
+    --button-radius: 8px; /*Radius for the buttons | Default 8px*/
+    --accent-color: 142, 255, 174; /*Main accent | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 142, 255, 174*/
+
+    /*Text settings*/
+    --server-channel-textc: 198, 198, 198; /*Text color for some elements | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 157, 157, 157*/
+}
