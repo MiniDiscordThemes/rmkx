@@ -2,22 +2,16 @@
 
 .header-3OsQeK { /*Server name*/
     color: rgba(var(--server-channel-textc), 0.35);
-    background-color: transparent;
     box-shadow: none;
     transition: filter 0.25s ease, color 0.25s ease;
 }
 .clickable-vvKY2q:not(.selected-1GtAC5) .header-3OsQeK:hover { /*Server name hover*/
     color: rgba(var(--server-channel-textc), 0.65);
-    background-color: transparent;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
 .selected-1GtAC5 .header-3OsQeK { /*Server name selected*/
     color: rgba(var(--server-channel-textc), 1);
-    background-color: transparent;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
-}
-.selected-1GtAC5 .header-3OsQeK:hover { /*Hovered selected server*/
-    background-color: transparent;
 }
 .containerDefault-3TQ5YN { /*Channel categories*/
     padding-top: 10px;
@@ -58,16 +52,6 @@
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
     transition: filter 0.35s ease;
 }
-.modeSelected-3DmyhH .content-1gYQeQ { /*Server selected channel main container background*/
-    background-color: transparent;
-}
-.containerDefault-YUSmu3 .unread-36eUEm { /*Unread messages in channel background*/
-    background-color: transparent;
-}
-.wrapper-NhbLHG:hover .content-1gYQeQ { /*Server hovered channel main container background*/
-    background-color: transparent;
-}
-
 @keyframes newUnreadChannel {
     0% {
         filter: opacity(0);
@@ -95,7 +79,6 @@
     animation-fill-mode: forwards;
 }
 .audienceVoiceUserIconContainer-1aQGLF { /*Audience in channel icon*/
-    background-color: transparent;
     color: rgb(var(--server-channel-textc));
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
@@ -116,11 +99,9 @@
     transition: 0.25s ease;
 }
 .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /*User in channel shadow*/
-    background-color: transparent;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
 .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 { /*Selected user in channel bg*/
-    background-color: transparent;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
 .channelNotice-2bJINM { /*Channel notice*/
@@ -134,7 +115,6 @@
     color: rgb(var(--server-channel-textc));
 }
 .unread-2wipsx { /*Unreads*/
-    background: transparent;
     opacity: 1;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }

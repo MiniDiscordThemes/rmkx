@@ -1,72 +1,106 @@
 /*Background*/
 
-#app-mount::before { /*Background 1*/
-    content: "";
-    background: var(--app-background);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -2;
-}
-#app-mount::after { /*Background 1*/
+@mixin overlay {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0, var(--app--bg-opacity));
-    z-index: -1;
+    inset: 0;
 }
-#app-mount .container-1eFtFS::before { /*Background 2*/
-    content: "";
-    background: var(--background-image);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(var(--bg-blur));
-    z-index: -2;
+
+#app-mount {
+    // Background 1
+    &::before {
+        @include overlay;
+        background: var(--app-background);
+        background-position: center;
+        background-size: cover;
+        z-index: -2;
+    }
+
+    // Background 2
+    &::after {
+        @include overlay;
+        background-color: rgba(0, 0, 0, var(--app--bg-opacity));
+        z-index: -1;
+    }
+
+    .container-1eFtFS {
+        // Background 2
+        &::before {
+            @include overlay;
+            background: var(--background-image);
+            background-position: center;
+            background-size: cover;
+            filter: blur(var(--bg-blur));
+            z-index: -2;
+        }
+
+        // Background 2
+        &::after {
+            background-color: rgba(0, 0, 0, var(--bg-opacity));
+            z-index: -1;
+        }
+    }
 }
-#app-mount .container-1eFtFS::after { /*Background 2*/
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0, var(--bg-opacity));
-    z-index: -1;
-}
-.appMount-2yBXZl,
-body,
+
+// Transparent panels
+.addReactButton-3bSQb6,
+.addReactButton-3bSQb6:hover,
 .app-2CXKsg,
-.scroller-3X7KbA,
-.wrapper-1_HaEi,
+.appMount-2yBXZl,
+.audienceVoiceUserIconContainer-1aQGLF,
 .bg-1QIAus,
-.sidebar-1tnWFu,
-.container-1NXEtd,
+.buttonInner-3aRbcx,
+.buttonInner-3aRbcx:hover,
 .chat-2ZfjoI,
-.members-3WRCEx,
-.members-3WRCEx .content-2a4AW9,
+.chatContent-3KubbW,
+.chatTarget-3H6mpC,
+.clickable-vvKY2q:not(.selected-1GtAC5) .header-3OsQeK:hover,
+.container-1NXEtd,
+.container-1oAagU,
+.container-2qVG6q:hover,
+.container-3wLKDe,
+.container-3XgAHv,
+.container-3YcgdM,
 .container-ZMc96U.themed-Hp1KC_,
-.scroller-WSmht3,
-.privateChannels-oVe7HL,
+.containerDefault-YUSmu3 .unread-36eUEm,
+.emptyCard-KDifrB,
+.header-3OsQeK,
+.iconWrapper-3FqQ75,
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42,
+.mainCard-3KBsBI,
+.member-48YF_l,
+.members-3WRCEx .content-2a4AW9,
+.members-3WRCEx,
+.modeSelected-3DmyhH .content-1gYQeQ,
 .nowPlayingColumn-1eCBCN,
-.outer-2JOHae { /*Transparent panels*/
-    background-color: transparent;
+.outer-2JOHae,
+.panels-3wFtMD .container-YkUktl,
+.partyMemberOverflow-3G1oZz,
+.pill-3pRQlO,
+.privateChannels-oVe7HL .scroller-WSmht3,
+.privateChannels-oVe7HL,
+.reaction-102jx9,
+.reaction-102jx9:hover,
+.scroller-3X7KbA,
+.scroller-WSmht3,
+.section-3G9aLW,
+.selected-1GtAC5 .header-3OsQeK,
+.selected-1GtAC5 .header-3OsQeK:hover,
+.sidebar-1tnWFu .container-1NXEtd,
+.sidebar-1tnWFu,
+.sortDropdown-hY93nR,
+.tag-19iIl1,
+.tagsButton-4pwOKH,
+.unread-2wipsx,
+.uploadInput-3fblkw,
+.wrapper-1_HaEi,
+.wrapper-NhbLHG:hover .content-1gYQeQ,
+body {
+    background: transparent;
 }
-.container-2cd8Mz { /*Transparent panels 2*/
-    background: transparent!important;
+
+.container-2cd8Mz,
+.voiceSectionIconWrapper-4yoj76 {
+    background: transparent !important;
 }
