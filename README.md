@@ -6,14 +6,22 @@
 [Replugged]:        https://replugged.dev/
 [Vencord]:          https://github.com/Vendicated/Vencord
 
+[boreal-img]: https://i.imgur.com/xtQflHh.jpg
+[duality-img]: https://i.imgur.com/yx8u4yR.png
+[llunaplena-img]: https://i.imgur.com/dh9Ctag.png
+[poison-img]: https://i.imgur.com/0xtQq87.png
+
 # rmkx's Themes Fixed [![GitHub downloads][gh-dl-badge]][gh-release] ![Repo size][repo-size-badge]
 
 ***Discord updated all class names in January 2022, which caused most older themes to stop working. This fork of [rmkx's themes](https://github.com/AlinaLego/rmkx.github.io) updates the themes with the new Discord classes.***
 
-## Changes
-- Class names updated for January 2022.
-- Images rehosted on GitHub.
-- Readme files edited for clarity.
+
+| Theme                       | Preview                       |
+| --------------------------- | ----------------------------- |
+| [BorealFix](Boreal)         | ![Screenshot][boreal-img]     |
+| [DualityFix](Duality)       | ![Screenshot][duality-img]    |
+| [LlunaPlenaFix](LlunaPlena) | ![Screenshot][llunaplena-img] |
+| [PoisonFix](Poison)         | ![Screenshot][poison-img]     |
 
 ## Installation
 
