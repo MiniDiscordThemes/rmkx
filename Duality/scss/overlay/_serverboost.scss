@@ -1,0 +1,148 @@
+/*Server boost*/
+
+.perksModal-fSYqOq {
+    /*Main modal*/
+    top: 50% !important;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: var(--settings-width);
+    height: calc(var(--settings-heigth) - 5%);
+    background: var(--popout-bg) center/cover !important;
+    border-radius: var(--main-radius);
+    box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569), -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
+    pointer-events: all !important;
+}
+.root-2zfUH6 .closeButton-PCZcma::before {
+    /*Close button left backdrop*/
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(80% - var(--settings-width));
+    height: 100%;
+    cursor: pointer;
+    pointer-events: inherit;
+    transition: 0.25s ease-in;
+}
+.root-2zfUH6 .closeButton-PCZcma::after {
+    /*Close button right backdrop*/
+    content: "";
+    position: fixed;
+    top: 0;
+    left: calc(20% + var(--settings-width));
+    width: calc(80% - var(--settings-width));
+    height: 100%;
+    cursor: pointer;
+    pointer-events: inherit;
+    transition: 0.25s ease-in;
+}
+.root-2zfUH6 .closeButton-PCZcma:active {
+    /*Makes the window dissapear*/
+    transform: none;
+}
+.ctaBar-2UsjF2 {
+    /*Server container*/
+    background-color: transparent;
+}
+.container-O54IuJ {
+    /*Close window button*/
+    right: -35%;
+    top: 80px;
+}
+.carousel-2M5OVB {
+    /*Server level panels*/
+    left: 15px !important;
+}
+.tierWrapper-W9ajqp {
+    /*Server tier wrappers*/
+    border-radius: var(--button-radius);
+    background-color: transparent;
+    box-shadow: unset !important;
+}
+.tierMarkerBackground-G8FoN4 {
+    /*Server boost level progress bar*/
+    background-color: transparent !important;
+}
+.iconWrapper-2_MXbk {
+    /*Server boost quantity*/
+    background: transparent !important;
+}
+.iconWrapper-2_MXbk:hover {
+    /*Server boost quantity hover*/
+    background: rgb(var(--accent-color), 0.55) !important;
+}
+.icon-2TbMdT,
+.icon-2TbMdT.disabled-2gUzwG,
+.icon-2TbMdT.disabled-2gUzwG:hover {
+    /*Server boost quantity*/
+    color: rgb(var(--server-channel-textc));
+}
+.tier-12tKuZ {
+    /*Server boost tier container*/
+    border-radius: var(--button-radius);
+}
+.tierBody-16Chc9 {
+    /*Server boost tier card body*/
+    background-color: transparent !important;
+}
+.perk-2WeBWW {
+    /*Server boost perks*/
+    background-color: transparent !important;
+}
+.divider-25_-sM {
+    /*Server boost divider*/
+    background-color: transparent;
+}
+.tier-3H4BXk {
+    /*Server boost tier main modal*/
+    border-radius: var(--main-radius);
+}
+.tierBody-x9kBBp {
+    /*Server boost tier body*/
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+.tierHeaderLocked-1a2opw {
+    /*Server boost tier header*/
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+.upsellFooter-1H_OCF,
+.value-kR4BVK {
+    /*Buying boosts*/
+    background-color: transparent;
+}
+.content-2qfHzC .headerGraphic-nVhv-X,
+.content-2qfHzC .headerBlurb-1GxBrq,
+.content-2qfHzC .ctaBar-2UsjF2,
+.subscriberPerksHeader-2a50UC,
+.perks-3OsGy8,
+.wrapper-1hrFc0,
+.wrapper-3nSjSv .heading-4znNKq,
+.wrapper-3nSjSv:before {
+    /*Server boost title*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.carouselItemSelected-JFUsnG {
+    /*Achieved boost tier*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.tierHeaderLocked-1s2JJz {
+    /*Locked tier*/
+    color: rgb(var(--server-channel-textc)) !important;
+    background-color: transparent !important;
+    filter: opacity(0.5);
+}
+.planSelectDivider-3KU5-l {
+    /*Buy boost divider*/
+    display: none;
+}
+.breadcrumbsWrapper-1m9gjf {
+    /*Buy boost divider*/
+    border-bottom: none;
+}
+.tierBody-1d3UiS,
+.tierHeaderLocked-30MLlO {
+    background-color: transparent !important;
+}
+.tierHeaderLocked-30MLlO {
+    border-bottom: 1px solid rgb(var(--server-channel-textc));
+}

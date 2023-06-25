@@ -1,0 +1,79 @@
+/*Active Now*/
+
+.container-1oAagU {
+    /*Main container*/
+    background-color: transparent;
+}
+.nowPlayingColumn-1eCBCN .header-Imy05m,
+.nowPlayingSidebar-2OFn0o .header-Imy05m {
+    /*Active now text*/
+    text-align: center;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    font-size: 0.9rem;
+    padding-bottom: 0px;
+    margin-top: -4px;
+    font-weight: 600;
+}
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg,
+.nowPlayingSidebar-2OFn0o .wrapper-2RrXDg {
+    /*Active now cards main container*/
+    margin-bottom: 18px;
+}
+.itemCard-3Etziu {
+    /*Active now cards*/
+    border-radius: 8px;
+    background: var(--popout-bg) center/cover no-repeat;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.569);
+    border: unset;
+    transition: box-shadow 0.25s ease;
+}
+.itemCard-3Etziu .inset-SbsSFp {
+    /*Active now activity*/
+    background-color: transparent !important;
+}
+.itemCard-3Etziu:hover {
+    /*Active now cards*/
+    box-shadow: -3px -3px 5px 3px rgba(0, 0, 0, 0.569);
+}
+.emptyCard-KDifrB {
+    background-color: transparent;
+}
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg > div,
+.nowPlayingSidebar-2OFn0o .wrapper-2RrXDg > div {
+    /*Active now card info*/
+    transition: filter 0.25s ease;
+}
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg:hover > div,
+.nowPlayingSidebar-2OFn0o .wrapper-2RrXDg:hover > div {
+    /*Active now hovered card info*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.nowPlayingColumn-1eCBCN .emptyText-29ycwI,
+.nowPlayingSidebar-2OFn0o .emptyText-29ycwI {
+    /*No one active text*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.voiceSectionDetails-3jGIB4:hover .voiceSectionText-eaaW3N {
+    /*Hovered activity*/
+    text-decoration: none;
+}
+.voiceSectionIconWrapper-4yoj76 {
+    /*Voice chanel icon*/
+    background-color: transparent !important;
+}
+.section-3G9aLW {
+    /*Activity*/
+    background-color: transparent;
+}
+.separator-2OaeRP {
+    /*Divider*/
+    display: none;
+}
+.partyMemberOverflow-3G1oZz {
+    /*Party members*/
+    background-color: transparent;
+}
+.scroller-hE2gWq {
+    /*active now border*/
+    border: none;
+}

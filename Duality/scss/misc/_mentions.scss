@@ -1,0 +1,59 @@
+/*Mentions settings*/
+
+.header-145e10 .tab-TRrPC8 {
+    /*Tab settings*/
+    color: rgba(var(--server-channel-textc), 0.2);
+    transition: 0.25s ease;
+}
+.header-145e10 .tabBar-1qdMr5 .tab-TRrPC8:hover {
+    /*Hovered tab*/
+    background-color: transparent !important;
+    color: rgba(var(--server-channel-textc), 0.65);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
+    /*Selected tab*/
+    background-color: transparent !important;
+    color: rgba(var(--server-channel-textc), 1);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.secondary-2bzKEX {
+    /*Filter button*/
+    color: rgba(var(--server-channel-textc), 0.35);
+    background-color: transparent;
+    transition: 0.25s ease;
+}
+.secondary-2bzKEX:hover:not(.disabled-184-il) {
+    /*Filter button hovered*/
+    background-color: transparent;
+    color: rgba(var(--server-channel-textc), 0.65);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.channelHeader-DFRX8q,
+.messageContainer-3VTXBC {
+    /*Mentions*/
+    background-color: transparent;
+}
+.button-1_oXub {
+    /*Close mention button*/
+    background-color: transparent;
+    color: rgb(var(--server-channel-textc), 0.35);
+    transition: 0.25s ease;
+}
+.tertiary-1e-lAP:hover:not(.disabled-184-il) {
+    /*Close mention button hovered*/
+    background-color: transparent;
+    color: rgb(var(--server-channel-textc), 1);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.jumpButton-1V_1FA {
+    /*Jump to message buton*/
+    background-color: transparent;
+    color: rgba(var(--server-channel-textc), 0.35);
+    transition: 0.25s ease;
+}
+.jumpButton-1V_1FA:hover {
+    /*Jump to message buton*/
+    color: rgba(var(--server-channel-textc), 1);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}

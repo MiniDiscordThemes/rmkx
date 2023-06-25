@@ -1,0 +1,137 @@
+/*Create server*/
+
+.root-g14mjS {
+    /*Main modal*/
+    background: transparent !important;
+    border-radius: var(--main-radius);
+}
+.root-g14mjS::before {
+    /*Main modal background*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--popout-bg) center/cover no-repeat;
+    border-radius: var(--main-radius);
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.root-g14mjS::after {
+    /*Main modal opacity*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0, 0, 0, var(--popout-opacity));
+    z-index: -1;
+}
+.templatesList-uohY49 .container-x8Y1ix,
+.optionsList-dmHy1l .container-x8Y1ix {
+    /*Server templates*/
+    background-color: transparent;
+    border-color: transparent;
+}
+.header-1c1AhF .title-1_TkpU,
+.header-12n7su .title-OdeD-o,
+.header-1AP5SJ .title-2Giw-4,
+.header-oub2Vc .title-1LqMUp {
+    /*Create server header color*/
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.colorHeaderSecondary-g5teka {
+    /*Subtitle*/
+    color: rgba(var(--server-channel-textc), 0.85);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.footer-31IekZ .footerTitle-3Bslxi {
+    color: rgb(var(--server-channel-textc), 0.55);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.templatesList-uohY49 .container-x8Y1ix .colorStandard-21JIj7,
+.optionsList-dmHy1l .container-x8Y1ix .colorStandard-21JIj7 {
+    /*Server templates text*/
+    color: rgb(var(--server-channel-textc), 0.35);
+    transition: 0.25s ease;
+}
+.templatesList-uohY49 .container-x8Y1ix:hover .colorStandard-21JIj7,
+.optionsList-dmHy1l .container-x8Y1ix:hover .colorStandard-21JIj7 {
+    /*Server templates text*/
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.container-x8Y1ix .icon-AynerZ {
+    /*Template icon*/
+    transition: 0.25s ease;
+}
+.container-x8Y1ix:hover .icon-AynerZ {
+    /*Template icon hovered*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.backButton-2Ps-B8,
+.footer-31IekZ .button-f2h6uQ .contents-3ca1mk {
+    /*Back button*/
+    color: rgb(var(--server-channel-textc), 0.35);
+    transition: color 0.25s ease;
+}
+.backButton-2Ps-B8:hover,
+.footer-31IekZ .button-f2h6uQ:hover .contents-3ca1mk {
+    /*Back button hovered*/
+    color: rgb(var(--server-channel-textc), 0.85);
+}
+.footer-31IekZ .button-f2h6uQ:hover .contents-3ca1mk {
+    /*Back button hovered*/
+    background-image: none !important;
+}
+.content-2hZxGK .input-2g-os5 {
+    /*Server name input*/
+    color: rgb(var(--server-channel-textc));
+}
+.iconContainer-GFfNaA svg circle {
+    /*Upload picture circle*/
+    fill: rgb(var(--server-channel-textc), 0.35) !important;
+    transition: 0.25s ease;
+}
+.iconContainer-GFfNaA:hover svg circle {
+    /*Upload picture circle hovered*/
+    fill: rgb(var(--server-channel-textc), 0.65) !important;
+}
+.input-m1-Y7Q {
+    /*Join server with link*/
+    background-color: transparent;
+    border-radius: var(--button-radius);
+}
+.input-m1-Y7Q .inputDefault-3FGxgL {
+    color: rgba(var(--server-channel-textc), 0.2) !important;
+}
+.content-2hZxGK .formTitle-2YQyhj {
+    color: rgb(var(--server-channel-textc));
+}
+.examplesForm-N_P087 .sampleLink-5BWNy9 {
+    color: rgba(var(--server-channel-textc), 0.6);
+}
+.closeButton-PCZcma path {
+    /*Close button style*/
+    fill: rgb(var(--server-channel-textc), 0.35) !important;
+}
+.closeButton-2ygCkj svg,
+.closeButton-2ygCkj path {
+    /*Close button/ESC text animation*/
+    transition: 0.25s ease;
+}
+.closeButton-2ygCkj:hover {
+    /*Close button hover*/
+    background-color: transparent !important;
+}
+.closeButton-2ygCkj:hover svg {
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.closeButton-2ygCkj :hover path {
+    /*Close button hover*/
+    fill: rgb(var(--server-channel-textc), 1) !important;
+}

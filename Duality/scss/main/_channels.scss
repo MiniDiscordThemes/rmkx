@@ -1,0 +1,167 @@
+/*Server channels settings*/
+
+.header-3OsQeK { /*Server name*/
+    color: rgba(var(--server-channel-textc), 0.35);
+    background-color: transparent;
+    box-shadow: none;
+    transition: filter 0.25s ease, color 0.25s ease;
+}
+.clickable-vvKY2q:not(.selected-1GtAC5) .header-3OsQeK:hover { /*Server name hover*/
+    color: rgba(var(--server-channel-textc), 0.65);
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.selected-1GtAC5 .header-3OsQeK { /*Server name selected*/
+    color: rgba(var(--server-channel-textc), 1);
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.selected-1GtAC5 .header-3OsQeK:hover { /*Hovered selected server*/
+    background-color: transparent;
+}
+.containerDefault-3TQ5YN { /*Channel categories*/
+    padding-top: 10px;
+}
+.containerDefault-3TQ5YN .wrapper-1S43wv { /*Channel categories text*/
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.containerDefault-3TQ5YN .wrapper-1S43wv .container-q97qHp { /*Channel category text*/
+    font-size: .85rem;
+}
+.mainContent-uDGa6R svg { /*Channel category collapsable arrow*/
+    display: none;
+}
+.wrapper-NhbLHG .name-28HaxV { /*Channel name color*/
+    color: rgb(var(--server-channel-textc))!important;
+}
+.wrapper-NhbLHG { /*channel names*/
+    transition: filter 0.35s ease;
+}
+.wrapper-NhbLHG:not(.modeSelected-3DmyhH):not(.modeUnread-3Cxepe) { /*Channel names*/
+    filter: opacity(0.2);
+}
+.wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover { /*Channel names hovered*/
+    filter: opacity(0.35) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.wrapper-NhbLHG.modeUnread-3Cxepe { /*Channel name unread*/
+    filter: opacity(0.45);
+    transition: filter 0.35s ease;
+}
+.wrapper-NhbLHG.modeUnread-3Cxepe:hover { /*Channel name unread hovered*/
+    filter: opacity(0.65) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.wrapper-NhbLHG.modeSelected-3DmyhH { /*Server selected channel text and icon*/
+    filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+    transition: filter 0.35s ease;
+}
+.modeSelected-3DmyhH .content-1gYQeQ { /*Server selected channel main container background*/
+    background-color: transparent;
+}
+.containerDefault-YUSmu3 .unread-36eUEm { /*Unread messages in channel background*/
+    background-color: transparent;
+}
+.wrapper-NhbLHG:hover .content-1gYQeQ { /*Server hovered channel main container background*/
+    background-color: transparent;
+}
+
+@keyframes newUnreadChannel {
+    0% {
+        filter: opacity(0);
+    }
+    25% {
+        filter: opacity(0.85);
+    }
+    50% {
+        filter: opacity(0);
+    }
+    100% {
+        filter: opacity(0.85);
+    }
+}
+.mainContent-20q_Hp[aria-label*="unread,"] .iconContainer-21RCa3::before { /*Unread messages in channel glow*/
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(var(--server-channel-textc), 0.4);
+    box-shadow: 0px 0px 10px 3px rgb(var(--server-channel-textc)), 0px 0px 0px 0px inset rgb(var(--server-channel-textc));
+    animation: newUnreadChannel 1s ease;
+    animation-fill-mode: forwards;
+}
+.audienceVoiceUserIconContainer-1aQGLF { /*Audience in channel icon*/
+    background-color: transparent;
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.audienceVoiceUserText-2X-pFO { /*Audience in channel*/
+    color: rgb(var(--server-channel-textc));
+}
+.listDefault-2F-w65 .clickable-1ctZ-H .content-1Tgc42 .username-vAneIW { /*People in channel name*/
+    color: rgba(var(--server-channel-textc), 0.35)!important;
+    transition: 0.25s ease;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 .username-vAneIW { /*People in channel name hovered*/
+    color: rgba(var(--server-channel-textc), 0.65)!important;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 .username-vAneIW  { /*Selecter user in channel name*/
+    color: rgba(var(--server-channel-textc), 1)!important;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H .content-1Tgc42 { /*User in channel*/
+    transition: 0.25s ease;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /*User in channel shadow*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 { /*Selected user in channel bg*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.channelNotice-2bJINM { /*Channel notice*/
+    border-bottom: none;
+}
+.channelNotice-2bJINM > .textBlock-2FWDjE,
+.channelNotice-2bJINM .eventName-2YgbEu { /*Channel notice text*/
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.subtitle-3PyFgf { /*Channel subtitle*/
+    color: rgb(var(--server-channel-textc));
+}
+.unread-2wipsx { /*Unreads*/
+    background: transparent;
+    opacity: 1;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.unread-2wipsx::before { /*Unreads background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background: var(--popout-bg) center/cover no-repeat;
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.unread-2wipsx::after { /*Unreads opacity*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0,0,0, var(--popout-opacity));
+    z-index: -1;
+}
+.unread-2wipsx .text-2GsXbW { /*Unread text*/
+    color: rgba(var(--server-channel-textc), 1);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}

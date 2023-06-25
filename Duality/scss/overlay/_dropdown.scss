@@ -1,0 +1,76 @@
+/*Dropboxes*/
+
+.css-gvi9bl-control,
+.css-1kj8ui-container,
+.bd-select { /*Main input device dropbox*/
+    background-color: transparent;
+    border-radius: var(--button-radius);
+    border-color: rgba(var(--server-channel-textc), .35);
+    transition: 0.25s ease;
+    z-index: 3;
+}
+.css-17e1tep-control,
+.css-17e1tep-control:focus,
+.css-17e1tep-control:active { /*Focused main input device dropbox*/
+    border-radius: var(--button-radius);
+    background-color: transparent;
+    border-color: rgba(var(--server-channel-textc), 1)!important;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+    transition: 0.25s ease;
+}
+.css-gvi9bl-control:hover,
+.bd-select:hover { /*Main input device dropbox hovered*/
+    background-color: rgba(0, 0, 0, 0.35);
+    border-color: rgba(var(--server-channel-textc), 0.5);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+    transition: 0.25s ease;
+}
+.css-6fzn47-control:hover,
+.css-6fzn47-control,
+.bd-select.menu-open { /*Main input device dropbox selected/focused*/
+    border-radius: var(--button-radius) var(--button-radius) 0px 0px;
+    border-bottom-color: transparent!important;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(3px);
+    border-color: rgba(var(--server-channel-textc), 1);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+    transition: 0.25s ease;
+}
+.css-1ba14n5-option,
+.bd-select .bd-select-option.selected { /*Dropdown menu selected option*/
+    background-color: transparent;
+    color: rgb(var(--accent-color))!important;
+}
+
+@keyframes dropDownAnimation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+.css-3vaxre-menu,
+.bd-select .bd-select-options { /*Dropdown menu open*/
+    border-radius: 0px 0px var(--button-radius) var(--button-radius);
+    background-color: rgba(0, 0, 0, 0.35);
+    border-color: rgba(var(--server-channel-textc), 1);
+    border-top-color: transparent!important;
+    animation: dropDownAnimation 0.2s ease-in;
+    transform-origin: top;
+    backdrop-filter: blur(3px);
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+    transition: 0.25s ease;
+}
+.css-rzbxvl-option,
+.bd-select .bd-select-option:hover { /*Hovered main input option*/
+    background-color: transparent;
+    color: rgba(var(--accent-color), 0.55);
+    transition: 0.25s ease;
+}
+.css-17mfgdg-container .css-118dehu-control { /*Not selectable*/
+    background-color: transparent;
+    border-radius: var(--button-radius);
+    border-color: rgba(var(--server-channel-textc), .15);
+    transition: 0.25s ease;
+}

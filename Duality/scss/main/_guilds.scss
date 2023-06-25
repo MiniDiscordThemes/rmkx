@@ -1,0 +1,101 @@
+/*Guilds*/
+
+.childWrapper-1j_1ub,
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    /*Home icon background color*/
+    background: transparent;
+}
+.homeIcon-FuNwkv {
+    /*Changes the home icon*/
+    color: transparent !important;
+    background: var(--home-icon-image) center/cover no-repeat;
+    z-index: 2;
+    width: 56px;
+    height: 56px;
+    transition: filter 0.25s ease;
+}
+.homeIcon-FuNwkv:hover {
+    /*Hovered home icon*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.tree-3agP2X:focus {
+    /*Removes outline when double clicking guild bar*/
+    outline: none;
+}
+.blobContainer-pmnxKB .wrapper-28eC3z foreignObject {
+    /*Guild icon mask*/
+    mask: none;
+    border-radius: 50%;
+    transition: filter 0.25s ease;
+}
+.listItem-GuPuDH .pill-1z4sAY {
+    overflow: visible !important;
+}
+.blobContainer-pmnxKB .wrapper-28eC3z:hover foreignObject {
+    /*Guild icon mask*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.folder-1hbNCn {
+    /*Folder settings*/
+    background-color: transparent;
+    transition: filter 0.25s ease;
+}
+.folder-1hbNCn:hover {
+    /*Folder settings hovered*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.folderIconWrapper-1_bOZe {
+    /*Folder background*/
+    background-color: transparent !important;
+}
+.circleIconButton-1QV--U {
+    /*Add/Explore servers*/
+    background-color: transparent;
+    color: rgba(var(--server-channel-textc), 0.35);
+    transition: 0.25s ease;
+}
+.circleIconButton-1QV--U:hover {
+    /*Add/Explore servers hovered*/
+    background-color: transparent;
+    color: rgba(var(--server-channel-textc), 0.55);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.circleIconButton-1QV--U.selected-1JjBPm {
+    /*Add/Explore servers selected*/
+    background-color: transparent;
+    color: rgba(var(--server-channel-textc), 1);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.pill-3N7f9r {
+    /*Server hovered element*/
+    overflow: visible !important;
+}
+.item-2LIpTv {
+    /*Server hovered*/
+    background-color: rgb(var(--server-channel-textc));
+    width: 4px;
+    border-radius: 0px;
+    margin-left: 0px;
+    transform: translateX(2px) !important;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.expandedFolderBackground-1cujaW {
+    /*Expanded folder background*/
+    background-color: transparent;
+}
+.upperBadge-1V6Iyi,
+.lowerBadge-3WTshO {
+    /*Badges*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.iconBadge-3qSJIw.participating-1NvRVd {
+    /*Participating badge*/
+    background-color: rgb(var(--accent-color), 0.55);
+}
+.numberBadge-37OJ3S {
+    /*Number badge*/
+    background-color: rgb(var(--accent-color), 0.55) !important;
+}

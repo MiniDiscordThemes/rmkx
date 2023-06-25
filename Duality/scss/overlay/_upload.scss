@@ -1,0 +1,63 @@
+/*Upload file modal*/
+
+.uploadModal-2ie9O_ {
+    /*Main modal*/
+    background-color: transparent !important;
+    border-radius: var(--main-radius);
+    box-shadow: -3px -6px 10px 10px black !important;
+}
+.uploadModal-2ie9O_::before {
+    /*Main modal background*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background: var(--popout-bg) center/cover no-repeat;
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.uploadModal-2ie9O_::after {
+    /*Main modal opacity*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0, 0, 0, var(--popout-opacity));
+    z-index: -1;
+}
+.uploadModal-2ie9O_ .footer-VCsJQY {
+    /*Footer*/
+    background-color: transparent !important;
+    box-shadow: unset !important;
+}
+.uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.image-2ssF8k {
+    /*Image preview*/
+    background-color: transparent;
+    box-shadow: unset;
+    filter: drop-shadow(-3px -1px 3px black);
+}
+.checkboxWrapper-2fDzaA {
+    /*Checkbox*/
+    color: rgb(var(--server-channel-textc));
+    transition: filter 0.35s ease;
+}
+.checkboxWrapper-2fDzaA:hover:not(.checked-1pZh2h),
+.checkboxWrapper-2fDzaA .checked-1pZh2h {
+    /*Checkbox hovered*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.checkboxWrapper-2fDzaA .checked-1pZh2h {
+    /*Checkbox box checked*/
+    border-color: rgb(var(--server-channel-textc)) !important;
+}
+.checkboxWrapper-2fDzaA .checked-1pZh2h svg path {
+    /*Checkbox box checked svg*/
+    fill: rgb(var(--server-channel-textc));
+    transition: fill 0.35s ease;
+}

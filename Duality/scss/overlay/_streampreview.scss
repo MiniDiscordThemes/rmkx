@@ -1,0 +1,94 @@
+/*Channel preview/Stream preview*/
+
+.streamPreview-3qoMP4,
+.container-8Futzw {
+    /*Stream preview*/
+    background-color: transparent !important;
+    background: transparent !important;
+    border-radius: var(--main-radius);
+    box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
+}
+.streamPreviewWrapper-rIrOy5.mounted-2LsfHh::before {
+    /*Stream preview background*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--popout-bg) center/cover no-repeat;
+    border-radius: var(--main-radius);
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.streamPreviewWrapper-rIrOy5.mounted-2LsfHh::after {
+    /*Stream preview opacity*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0, 0, 0, var(--popout-opacity));
+    z-index: -1;
+}
+.container-8Futzw {
+    overflow: auto !important;
+}
+.container-8Futzw::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--popout-bg) center/cover no-repeat;
+    border-radius: var(--main-radius);
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.container-8Futzw::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0, 0, 0, var(--popout-opacity));
+    z-index: -1;
+}
+.watchButton-2v6cPT,
+.button-1Ofqs0 {
+    /*Join stream button*/
+    border-radius: var(--button-radius);
+    color: rgba(var(--server-channel-textc), 0.35);
+    border-color: rgba(var(--server-channel-textc), 0.35) !important;
+    transition: 0.25s ease;
+}
+.watchButton-2v6cPT.button-f2h6uQ:disabled,
+.button-1Ofqs0:disabled {
+    /*Disabled join stream button*/
+    color: rgba(var(--server-channel-textc), 0.15);
+    border-color: rgba(var(--server-channel-textc), 0.15) !important;
+}
+.watchButton-2v6cPT:hover:not(:disabled),
+.button-1Ofqs0:hover:not(:disabled) {
+    /*Join stream button hovered*/
+    color: rgba(var(--server-channel-textc), 1) !important;
+    border-color: rgba(var(--server-channel-textc), 1) !important;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.previewContainer-21fFBz {
+    /*Stream preview container*/
+    background-color: transparent !important;
+}
+.activity-1DK9Xa + .activity-1DK9Xa {
+    /*Divider*/
+    border-top: none;
+}
+.activity-1DK9Xa {
+    /*Channel preview activity*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}

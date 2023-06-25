@@ -1,0 +1,61 @@
+/*Stage Discovery*/
+
+.stageSection-3mAD8V {
+    /*Main modal*/
+    background-color: transparent;
+}
+.headerBarContainer-31FKNA {
+    /*Header shadow underline*/
+    box-shadow: none;
+}
+.container-S9SaVf {
+    /*Stage cards*/
+    border-radius: 8px;
+    background: var(--popout-bg) center/cover no-repeat;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.569);
+    border: unset;
+    transition: box-shadow 0.25s ease;
+}
+.container-S9SaVf:hover {
+    /*Active now cards*/
+    box-shadow: -3px -3px 5px 3px rgba(0, 0, 0, 0.569);
+}
+.container-S9SaVf .topicText-3B26Cx {
+    /*Stage card title*/
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.container-7Unqij,
+.iconMicrophone-1A2Yqh,
+.speakerCount-3KijLY {
+    /*Card icons*/
+    background-color: transparent;
+}
+.container-2rNpDV {
+    /*Stage picture*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.pageHeader-3nuK1W {
+    /*Live stages title text*/
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    text-align: center;
+}
+.bulletsContainer-3omDLR,
+.circle-1anBj0 {
+    /*Create stage*/
+    background-color: transparent;
+}
+.bulletsContainer-3omDLR,
+.header-1AQlNL {
+    /*Create stage text*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.header-1AQlNL {
+    color: rgb(var(--server-channel-textc));
+}
+.borderBottom-cijHjW {
+    /*Divider*/
+    border: none;
+}

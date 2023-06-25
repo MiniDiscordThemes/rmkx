@@ -1,0 +1,72 @@
+/*Background*/
+
+#app-mount::before { /*Background 1*/
+    content: "";
+    background: var(--app-background);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+}
+#app-mount::after { /*Background 1*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, var(--app--bg-opacity));
+    z-index: -1;
+}
+#app-mount .container-1eFtFS::before { /*Background 2*/
+    content: "";
+    background: var(--background-image);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(var(--bg-blur));
+    z-index: -2;
+}
+#app-mount .container-1eFtFS::after { /*Background 2*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, var(--bg-opacity));
+    z-index: -1;
+}
+.appMount-2yBXZl,
+body,
+.app-2CXKsg,
+.scroller-3X7KbA,
+.wrapper-1_HaEi,
+.bg-1QIAus,
+.sidebar-1tnWFu,
+.container-1NXEtd,
+.chat-2ZfjoI,
+.members-3WRCEx,
+.members-3WRCEx .content-2a4AW9,
+.container-ZMc96U.themed-Hp1KC_,
+.scroller-WSmht3,
+.privateChannels-oVe7HL,
+.nowPlayingColumn-1eCBCN,
+.outer-2JOHae { /*Transparent panels*/
+    background-color: transparent;
+}
+.container-2cd8Mz { /*Transparent panels 2*/
+    background: transparent!important;
+}

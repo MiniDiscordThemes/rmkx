@@ -1,0 +1,11 @@
+/*Scrollbar settings*/
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--scrollbar-dark-color))!important;
+    filter: brightness(2%);
+    border-radius: var(--main-radius);
+}
+::-webkit-scrollbar-track {
+    background-color: transparent!important;
+    border-radius: var(--main-radius);
+}

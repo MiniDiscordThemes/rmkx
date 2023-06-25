@@ -1,0 +1,83 @@
+/*Threads*/
+
+.container-18GwIk {
+    /*Main modal*/
+    background: transparent;
+    border-radius: var(--main-radius);
+    animation: menuShow 0.25s ease;
+    transform-origin: bottom;
+}
+.container-18GwIk::before {
+    /*Main modal background*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--popout-bg) center/cover no-repeat;
+    border-radius: var(--main-radius);
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.container-18GwIk::after {
+    /*Main modal opacity*/
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0, 0, 0, var(--popout-opacity));
+    z-index: -1;
+}
+.header-3_zmOb {
+    background-color: transparent;
+}
+.header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu,
+.list-1uSVgu .tabBar-3N44FC .tab-1tp4jL {
+    /*Tab buttons*/
+    color: rgba(var(--server-channel-textc), 0.2);
+    transition: 0.25s ease;
+}
+.header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu:hover,
+.list-1uSVgu .tabBar-3N44FC .tab-1tp4jL:hover {
+    /*Tab buttons hover*/
+    color: rgba(var(--server-channel-textc), 0.65);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    background-color: transparent !important;
+}
+.header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu.active-346HgG,
+.list-1uSVgu .tabBar-3N44FC .tab-1tp4jL.active-3WMEyE {
+    /*Selected tab*/
+    color: rgba(var(--server-channel-textc), 1) !important;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    background-color: transparent !important;
+}
+.divider-2xk5N2 {
+    /*Divider*/
+    background: transparent;
+}
+.icon-mJhEWn {
+    /*svg background*/
+    background: transparent;
+}
+.row-1qtctT {
+    color: rgb(var(--server-channel-textc)) !important;
+    filter: opacity(0.2);
+    transition: filter 0.25s ease;
+}
+.row-1qtctT:hover {
+    filter: opacity(0.45) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+    background: none;
+}
+.chatHeaderBar-2fUORh {
+    height: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: var(--popout-bg);
+    background-color: transparent;
+    box-shadow: -3px -4px 6px 3px black;
+    opacity: 1;
+}

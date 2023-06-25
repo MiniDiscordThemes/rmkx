@@ -1,0 +1,63 @@
+/*Watch party thingy*/
+
+.scroller-35tvpe,
+.callContainer-BGIngG,
+.container-cH6QoY,
+.rowContainer-jDvyA4,
+.container-3r7mfc,
+.participants-3hk3ND {
+    /*Main modals*/
+    background-color: transparent;
+}
+.divider-vv_iHh {
+    border: none;
+}
+.container-3r7mfc,
+.rowContainer-jDvyA4,
+.roleContainer-WStCpt {
+    /*Shadows*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.tileContainer-Os085F {
+    /*Users*/
+    transition: 0.25s ease;
+}
+.tileContainer-Os085F:hover {
+    /*User hovered*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.auto-1QyTTa::-webkit-scrollbar-thumb {
+    /*Scrollbar thumb*/
+    background-color: rgb(var(--main-dark-color)) !important;
+}
+.auto-1QyTTa::-webkit-scrollbar-thumb,
+.auto-1QyTTa::-webkit-scrollbar-track {
+    /*Scrollbar thing*/
+    border: none;
+}
+.participantsButton-1WBdFP,
+.cta-3-AFNF {
+    /*Call participants button*/
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.participantsButton-1WBdFP:hover,
+.cta-3-AFNF:hover {
+    /*Call participants button hovered*/
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.separator-2lLxgC {
+    /*Invite separator*/
+    box-shadow: unset !important;
+}
+.inviteRow-3vmB7i {
+    /*Invite friend to channel*/
+    color: rgb(var(--server-channel-textc), 0.35);
+    transition: 0.25s ease;
+}
+.inviteRow-3vmB7i:hover {
+    /*Invite friend to channel hovered*/
+    background-color: transparent !important;
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
