@@ -12,7 +12,7 @@
     --showing-width: 13.5%; /*Amount that will be shown when the panels show | Default 13.5%*/
     --transition-speed: 0.35s; /*Changes the transition speed*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
-    --showing-background: transparent;/*Background of the elements when showing*/
+    --showing-background: transparent; /*Background of the elements when showing*/
 }
 
 /*Hides the server's channel list*/
@@ -20,283 +20,327 @@
 .sidebar-1tnWFu {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: var(--server-hiding-width);
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.bd-minimal .sidebar-1tnWFu { /*Minimal mode channels*/
+.bd-minimal .sidebar-1tnWFu {
+    /*Minimal mode channels*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: var(--server-hiding-width);
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.content-1gYQeQ { /*Moves chanels to the left for aesthetic purposes*/
+.content-1gYQeQ {
+    /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
     margin-left: 5px;
 }
-.mainContent-uDGa6R .overflow-1wOqNV, .icon-3zI3d2{ /*Hides the channel group*/
+.mainContent-uDGa6R .overflow-1wOqNV,
+.icon-3zI3d2 {
+    /*Hides the channel group*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: transparent;
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.wrapper-2fEmwW { /*Hides the amount of people in a voice channel when hidden*/
+.wrapper-2fEmwW {
+    /*Hides the amount of people in a voice channel when hidden*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     visibility: hidden;
     transition: visibility calc(var(--transition-speed) - 0.2s) ease;
     will-change: visibility;
 }
-.containerDefault-3TQ5YN { /*Removes padding between channels when hidden for aesthetical purposes*/
+.containerDefault-3TQ5YN {
+    /*Removes padding between channels when hidden for aesthetical purposes*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     padding: 0px;
     transition: padding var(--transition-speed) ease;
     will-change: padding;
 }
-.container-1oeRFJ.channel-1Shao0{ /*Moves the online friends list to the left for aesthetical purposes*/
+.container-1oeRFJ.channel-1Shao0 {
+    /*Moves the online friends list to the left for aesthetical purposes*/
     margin-left: 0px;
 }
-.layout-1qmrhw.channel-1Shao0 { /*Moves the online friends list to the left for aesthetical purposes*/
+.layout-1qmrhw.channel-1Shao0 {
+    /*Moves the online friends list to the left for aesthetical purposes*/
     padding-left: 0px;
 }
-.containerDefault-YUSmu3 { /*Server channel normal background*/
+.containerDefault-YUSmu3 {
+    /*Server channel normal background*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.selected-1-Z6gm.container-1oeRFJ { /*Selected friend settings*/
+.selected-1-Z6gm.container-1oeRFJ {
+    /*Selected friend settings*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.containerDefault-YUSmu3 .modeSelected-3DmyhH { /*Selected server channel background*/
+.containerDefault-YUSmu3 .modeSelected-3DmyhH {
+    /*Selected server channel background*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.voiceUserSummary-huJ8Md { /*Voice Channels when collapsed*/
+.voiceUserSummary-huJ8Md {
+    /*Voice Channels when collapsed*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.actionIcon-2sw4Sl { /*Hides the invite to channel button when panel is hidden*/
+.actionIcon-2sw4Sl {
+    /*Hides the invite to channel button when panel is hidden*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: transparent;
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.listeningAlong-6YvYsc { /*Hides the listening along panel*/
+.listeningAlong-6YvYsc {
+    /*Hides the listening along panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     height: 0px;
     visibility: hidden;
     padding: 0px;
-    transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
+    transition:
+        height var(--transition-speed) ease,
+        visibility 0.0000000000000001s ease,
+        padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.wrapper-3Hk9OB { /*Hides the connected channel panel*/
+.wrapper-3Hk9OB {
+    /*Hides the connected channel panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     height: 0px;
     visibility: hidden;
     padding: 0px;
-    transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
+    transition:
+        height var(--transition-speed) ease,
+        visibility 0.0000000000000001s ease,
+        padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.activityPanel-9icbyU { /*Hides the sharing screen panel*/
+.activityPanel-9icbyU {
+    /*Hides the sharing screen panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     height: 0px;
     visibility: hidden;
     padding: 0px;
-    transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
+    transition:
+        height var(--transition-speed) ease,
+        visibility 0.0000000000000001s ease,
+        padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.list-2x9Cl9 { /*Moves people connected to a voice channel when hidden*/
+.list-2x9Cl9 {
+    /*Moves people connected to a voice channel when hidden*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     padding-left: 5px;
     transition: padding var(--transition-speed) ease;
     will-change: padding;
 }
-.addButton-2mlqCW { /*Hides the add channel in the channel list*/
+.addButton-2mlqCW {
+    /*Hides the add channel in the channel list*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: transparent;
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.listDefault-2F-w65 .avatarContainer-3FF_Km { /*Centers the avatars of peole connected to a vc even more*/
+.listDefault-2F-w65 .avatarContainer-3FF_Km {
+    /*Centers the avatars of peole connected to a vc even more*/
     margin-left: 5px;
 }
-.mentionsBadge-2ckrKL { /*Mentioned in a channel*/
+.mentionsBadge-2ckrKL {
+    /*Mentioned in a channel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     top: 15px;
     left: 7px;
-    transition: left var(--transition-speed) ease-in, top var(--transition-speed) ease-in;
+    transition:
+        left var(--transition-speed) ease-in,
+        top var(--transition-speed) ease-in;
     will-change: top, left;
 }
-.button-2BMPJJ { /* Arrow button*/
+.button-2BMPJJ {
+    /* Arrow button*/
     margin-left: -3px;
 }
-.privateChannelsHeaderContainer-1UWASm, .privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y { /*New Direct Message text*/
+.privateChannelsHeaderContainer-1UWASm,
+.privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y {
+    /*New Direct Message text*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: transparent;
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.searchBar-3TnChZ { /*Hides the searchbar on top of DMs*/
+.searchBar-3TnChZ {
+    /*Hides the searchbar on top of DMs*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: 45%;
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.header-3OsQeK { /*Server name panel*/
+.header-3OsQeK {
+    /*Server name panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: 85%;
     padding-left: 14px;
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.bd-minimal .privateChannels-oVe7HL .layout-1qmrhw { /*Channel container*/
+.bd-minimal .privateChannels-oVe7HL .layout-1qmrhw {
+    /*Channel container*/
     justify-content: unset;
     padding-left: 0;
 }
-.bd-minimal .privateChannels-oVe7HL .layout-1qmrhw .avatar-6qzftW { /*Minimal mode DM avatar hidden*/
+.bd-minimal .privateChannels-oVe7HL .layout-1qmrhw .avatar-6qzftW {
+    /*Minimal mode DM avatar hidden*/
     justify-content: unset;
     padding-left: 10%;
 }
-.bd-minimal .channel-1Shao0[href="/channels/@me"] { /*Minimal mode friends icon wrapper*/
+.bd-minimal .channel-1Shao0[href="/channels/@me"] {
+    /*Minimal mode friends icon wrapper*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     margin-left: 1px;
     width: 50px;
     min-width: 30.8px;
     max-width: 60%;
 }
-.bd-minimal .channel-1Shao0[href="/channels/@me"] .avatar-6qzftW { /*Minimal mode friends icon*/
+.bd-minimal .channel-1Shao0[href="/channels/@me"] .avatar-6qzftW {
+    /*Minimal mode friends icon*/
     padding-left: 0;
 }
 .bd-minimal .channel-1Shao0[href="/channels/@me"] .avatar-6qzftW,
 .bd-minimal .channel-1Shao0[href="/library"] .avatar-6qzftW,
-.bd-minimal .channel-1Shao0[href="/store"] .avatar-6qzftW { /*Friends/Library/Nitro buttons minimal mode*/
+.bd-minimal .channel-1Shao0[href="/store"] .avatar-6qzftW {
+    /*Friends/Library/Nitro buttons minimal mode*/
     justify-content: center;
 }
 .bd-minimal .channel-1Shao0[href="/library"],
 .bd-minimal .channel-1Shao0[href="/store"],
 .bd-minimal .channel-1Shao0[href="/library"] .avatar-6qzftW,
-.bd-minimal .channel-1Shao0[href="/store"] .avatar-6qzftW { /*Friends/Library/Nitro buttons minimal mode*/
+.bd-minimal .channel-1Shao0[href="/store"] .avatar-6qzftW {
+    /*Friends/Library/Nitro buttons minimal mode*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     height: 0px;
     width: 0px;
-    transition: height var(--transition-speed) ease, width var(--transition-speed) ease;
+    transition:
+        height var(--transition-speed) ease,
+        width var(--transition-speed) ease;
     will-change: height, width;
 }
 
@@ -305,218 +349,242 @@
 .sidebar-1tnWFu:hover {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: var(--showing-width);
 }
-.bd-minimal .sidebar-1tnWFu:hover { /*Minimal mode server channels hover*/
+.bd-minimal .sidebar-1tnWFu:hover {
+    /*Minimal mode server channels hover*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: calc(var(--showing-width) - 2.3%);
 }
-.sidebar-1tnWFu:hover .mainContent-uDGa6R .overflow-1wOqNV, .sidebar-1tnWFu:hover .mainContent-uDGa6R .icon-3zI3d2{  /*Shows channel group*/
+.sidebar-1tnWFu:hover .mainContent-uDGa6R .overflow-1wOqNV,
+.sidebar-1tnWFu:hover .mainContent-uDGa6R .icon-3zI3d2 {
+    /*Shows channel group*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .containerDefault-3TQ5YN { /*Animates the movement of the channel groups when they show*/
+.sidebar-1tnWFu:hover .containerDefault-3TQ5YN {
+    /*Animates the movement of the channel groups when they show*/
     padding: 4px;
 }
-.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .actionIcon-2sw4Sl { /*Shows the invite to channel button when panel is hovered*/
+.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .actionIcon-2sw4Sl {
+    /*Shows the invite to channel button when panel is hovered*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .listeningAlong-6YvYsc { /*Shows the listening along panel*/
+.sidebar-1tnWFu:hover .listeningAlong-6YvYsc {
+    /*Shows the listening along panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     padding: 8px;
     height: auto;
-    visibility: visible!important;
+    visibility: visible !important;
 }
-.sidebar-1tnWFu:hover .activityPanel-9icbyU { /*Shows the sharing screen panel*/
+.sidebar-1tnWFu:hover .activityPanel-9icbyU {
+    /*Shows the sharing screen panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     padding: 8px;
     height: auto;
-    visibility: visible!important;
+    visibility: visible !important;
 }
-.sidebar-1tnWFu:hover .wrapper-3Hk9OB { /*Shows the connected channel panel*/
+.sidebar-1tnWFu:hover .wrapper-3Hk9OB {
+    /*Shows the connected channel panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     padding: 8px;
     height: auto;
-    visibility: visible!important;
+    visibility: visible !important;
 }
-.sidebar-1tnWFu:hover .voiceUserSummary-huJ8Md { /*Showing collapsed voice chanels on server*/
+.sidebar-1tnWFu:hover .voiceUserSummary-huJ8Md {
+    /*Showing collapsed voice chanels on server*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     background-color: transparent;
     background: transparent;
 }
-.sidebar-1tnWFu:hover .wrapper-2fEmwW { /*Showing the amount of people in a voice channel*/
+.sidebar-1tnWFu:hover .wrapper-2fEmwW {
+    /*Showing the amount of people in a voice channel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     visibility: visible;
 }
-.sidebar-1tnWFu:hover .list-2x9Cl9 { /*Moves the connected users in a voice channel back to default place*/
+.sidebar-1tnWFu:hover .list-2x9Cl9 {
+    /*Moves the connected users in a voice channel back to default place*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     padding-left: 36px;
 }
-.sidebar-1tnWFu:hover .addButton-2mlqCW { /*Shows the add server button on the channels list*/
+.sidebar-1tnWFu:hover .addButton-2mlqCW {
+    /*Shows the add server button on the channels list*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .mentionsBadge-2ckrKL { /*Mentioned in a channel when hovering*/
+.sidebar-1tnWFu:hover .mentionsBadge-2ckrKL {
+    /*Mentioned in a channel when hovering*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     left: initial;
     top: initial;
 }
-.sidebar-1tnWFu:hover .header-3OsQeK { /*Showing server name*/
+.sidebar-1tnWFu:hover .header-3OsQeK {
+    /*Showing server name*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: 100%;
-  }
-.sidebar-1tnWFu:hover .content-2a4AW9 .privateChannelsHeaderContainer-1UWASm, .sidebar-1tnWFu:hover .privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y { /*Shows DM text*/
+}
+.sidebar-1tnWFu:hover .content-2a4AW9 .privateChannelsHeaderContainer-1UWASm,
+.sidebar-1tnWFu:hover .privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y {
+    /*Shows DM text*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .searchBar-3TnChZ { /*Shows searchbar on top of DMs*/
+.sidebar-1tnWFu:hover .searchBar-3TnChZ {
+    /*Shows searchbar on top of DMs*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: 80%;
 }
-.bd-minimal .sidebar-1tnWFu:hover .searchBar-3TnChZ { /*Minimal mode searchbar*/
+.bd-minimal .sidebar-1tnWFu:hover .searchBar-3TnChZ {
+    /*Minimal mode searchbar*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     width: 90%;
     will-change: width;
 }
 .bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/library"],
-.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/store"] { /*Friends/Library/Nitro buttons minimal mode*/
+.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/store"] {
+    /*Friends/Library/Nitro buttons minimal mode*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     height: 42px;
     width: 50px;
-    transition: height calc(var(--transition-speed) + 0.25s) ease, width calc(var(--transition-speed) + 0.25s) ease;
+    transition:
+        height calc(var(--transition-speed) + 0.25s) ease,
+        width calc(var(--transition-speed) + 0.25s) ease;
     will-change: height, width;
 }
 .bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/library"] .avatar-6qzftW,
-.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/store"] .avatar-6qzftW { /*Friends/Library/Nitro buttons minimal mode*/
+.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/store"] .avatar-6qzftW {
+    /*Friends/Library/Nitro buttons minimal mode*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     height: 42px;
     width: 42px;
-    transition: width calc(var(--transition-speed) + 0.25s) ease, height calc(var(--transition-speed) + 0.25s) ease;
+    transition:
+        width calc(var(--transition-speed) + 0.25s) ease,
+        height calc(var(--transition-speed) + 0.25s) ease;
     will-change: width, height;
 }

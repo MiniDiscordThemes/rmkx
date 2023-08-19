@@ -1,1 +1,52 @@
-:root{--members-hiding: 80%;--members-showing: 0%;--transition-speed: 0.35s}.chatContent-3KubbW{position:absolute;width:97% !important;height:100%}.membersWrap-3NUR2t{position:absolute;top:0;right:0%;height:100%;-webkit-backface-visibility:hidden;-webkit-perspective:1000;-webkit-transform:translate3d(0, 0, 0);-webkit-transform:translateZ(0);-webkit-transform:translateX(var(--members-hiding));backface-visibility:hidden;perspective:1000;transform:translate3d(0, 0, 0);transform:translateZ(0);transform:translateX(var(--members-hiding));justify-content:unset;transition:transform var(--transition-speed) ease-in;will-change:transform}.membersGroup-2eiWxl{-webkit-backface-visibility:hidden;-webkit-perspective:1000;-webkit-transform:translate3d(0, 0, 0);-webkit-transform:translateZ(0);backface-visibility:hidden;perspective:1000;transform:translate3d(0, 0, 0);transform:translateZ(0);color:rgba(0,0,0,0);transition:color var(--transition-speed) ease-in;will-change:color}.member-2gU6Ar{margin-left:2px;margin-bottom:3px}.membersWrap-3NUR2t:hover{transform:translateX(var(--members-showing))}.membersWrap-3NUR2t:hover .membersGroup-2eiWxl{color:#fff}
+:root {
+    --members-hiding: 80%;
+    --members-showing: 0%;
+    --transition-speed: 0.35s;
+}
+.chatContent-3KubbW {
+    position: absolute;
+    width: 97% !important;
+    height: 100%;
+}
+.membersWrap-3NUR2t {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -webkit-transform: translateX(var(--members-hiding));
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0, 0, 0);
+    transform: translateZ(0);
+    transform: translateX(var(--members-hiding));
+    justify-content: unset;
+    transition: transform var(--transition-speed) ease-in;
+    will-change: transform;
+}
+.membersGroup-2eiWxl {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0, 0, 0);
+    transform: translateZ(0);
+    color: rgba(0, 0, 0, 0);
+    transition: color var(--transition-speed) ease-in;
+    will-change: color;
+}
+.member-2gU6Ar {
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+.membersWrap-3NUR2t:hover {
+    transform: translateX(var(--members-showing));
+}
+.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+    color: #fff;
+}

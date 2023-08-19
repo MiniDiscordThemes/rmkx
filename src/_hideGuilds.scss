@@ -7,7 +7,8 @@
  * @version      1.0 
  */
 
-.wrapper-1_HaEi { /*Guild wrapper*/
+.wrapper-1_HaEi {
+    /*Guild wrapper*/
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -17,7 +18,8 @@
     height: 12.5px;
     transition: 250ms ease-in;
 }
-.tree-3agP2X { /*Guild subcontainer*/
+.tree-3agP2X {
+    /*Guild subcontainer*/
     position: absolute;
     top: 100%;
     left: 0;
@@ -25,33 +27,40 @@
     transform: rotate(270deg);
     height: 900px;
     width: 12.5px;
-    transition: 250ms ease-in; 
+    transition: 250ms ease-in;
 }
-.wrapper-1_HaEi:hover { /*Guild wrapper hover*/
+.wrapper-1_HaEi:hover {
+    /*Guild wrapper hover*/
     height: 69px;
 }
-.wrapper-1_HaEi:hover .tree-3agP2X { /*Guild subcontainer hover*/
+.wrapper-1_HaEi:hover .tree-3agP2X {
+    /*Guild subcontainer hover*/
     width: 69px;
 }
-.scroller-3X7KbA { /*Centers server icons on the guild bar*/
+.scroller-3X7KbA {
+    /*Centers server icons on the guild bar*/
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.wrapper-28eC3z { /*Server Icon*/
+.wrapper-28eC3z {
+    /*Server Icon*/
     transform: rotate(90deg);
 }
 
 /*DevilBro's Server Folder compatibility*/
-.wrapper-1_HaEi.content-Pph8t6 { /*Main folder modal when hidden*/
+.wrapper-1_HaEi.content-Pph8t6 {
+    /*Main folder modal when hidden*/
     position: absolute;
     width: 900px;
     transform: translateX(-50%) translateY(-12.5px);
     z-index: 2;
 }
-.content-Pph8t6.closed-j55_T- { /*Folder modal when closed*/
+.content-Pph8t6.closed-j55_T- {
+    /*Folder modal when closed*/
     visibility: hidden;
 }
-.wrapper-1_HaEi.content-Pph8t6:hover:not(.hidden-10MsGQ) { /*Main folder modal expanded*/
+.wrapper-1_HaEi.content-Pph8t6:hover:not(.hidden-10MsGQ) {
+    /*Main folder modal expanded*/
     position: absolute;
     transform: translateX(-50%) translateY(-12.5px);
 }
