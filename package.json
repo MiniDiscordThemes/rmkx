@@ -1,0 +1,17 @@
+{
+    "name": "rmkx-discord-themes",
+    "version": "1.0.0",
+    "description": "rmkx's Discord themes with updated selectors.",
+    "repository": "github:MiniDiscordThemes/rmkx",
+    "author": "Saltssaumure <themes@saltssaumure.net>",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "lint": "prettier ./scss --check",
+        "lint:fix": "prettier ./scss --write --log-level warn"
+    },
+    "type": "module",
+    "dependencies": {
+        "prettier": "^3.0.0"
+    }
+}
