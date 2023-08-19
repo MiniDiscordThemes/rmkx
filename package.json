@@ -7,8 +7,8 @@
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
-        "lint": "prettier ./scss --check",
-        "lint:fix": "prettier ./scss --write --log-level warn"
+        "lint": "prettier ./ --check",
+        "lint:fix": "prettier ./ --write --log-level warn"
     },
     "type": "module",
     "dependencies": {
