@@ -2345,7 +2345,9 @@ textarea {
     width: 5px;
     height: 5px;
     background-color: rgba(var(--main-accent), 0.4);
-    box-shadow: 0px 0px 10px 3px rgb(var(--main-accent)), 0px 0px 0px 0px inset rgb(var(--main-accent));
+    box-shadow:
+        0px 0px 10px 3px rgb(var(--main-accent)),
+        0px 0px 0px 0px inset rgb(var(--main-accent));
 }
 .clickable-vvKY2q .header-3OsQeK:hover,
 .selected-1GtAC5 .header-3OsQeK {
@@ -2648,7 +2650,9 @@ textarea {
     background-color: transparent;
     border-radius: var(--general-radius);
     border: 1px solid rgb(var(--main-accent), 0.25);
-    transition: border-color 0.25s ease, width 0.25s ease-in;
+    transition:
+        border-color 0.25s ease,
+        width 0.25s ease-in;
 }
 .searchBar-zdmu7v:not([aria-expanded="true"]):hover,
 .searchBar-1YE5UV:hover {
@@ -2658,7 +2662,9 @@ textarea {
 .focused-8aNhVB .searchBar-zdmu7v {
     /*Searchbar focused*/
     border-color: rgb(var(--main-accent), 1);
-    transition: border-color 0.25s ease, width 0.25s ease-in;
+    transition:
+        border-color 0.25s ease,
+        width 0.25s ease-in;
 }
 .elevationBorderHigh-3drnJX {
     /*Box shadow on main modal*/

@@ -84,7 +84,9 @@
     background-color: transparent !important;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
     box-shadow: none !important;
-    transition: filter 0.25s ease, opacity 0.25s ease;
+    transition:
+        filter 0.25s ease,
+        opacity 0.25s ease;
 }
 .auditLog-3jNbM6 {
     /*Audit log main modal*/
@@ -164,7 +166,9 @@
     /*Role dropdown box*/
     border-radius: var(--main-radius);
     background-color: transparent;
-    box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569), -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
+    box-shadow:
+        -3px -6px 10px 10px rgba(0, 0, 0, 0.569),
+        -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
     border: none;
 }
 .container-2O1UgZ::before {

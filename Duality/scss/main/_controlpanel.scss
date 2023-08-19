@@ -1,46 +1,57 @@
 /*User status area*/
 
-.panels-3wFtMD { /*Main panel*/
+.panels-3wFtMD {
+    /*Main panel*/
     background-color: transparent;
 }
-.container-YkUktl { /*Subcontainer*/
+.container-YkUktl {
+    /*Subcontainer*/
     margin-bottom: 22px;
 }
-.container-YkUktl .button-12Fmur { /*Mute/Deafen/Settings buttons*/
+.container-YkUktl .button-12Fmur {
+    /*Mute/Deafen/Settings buttons*/
     color: rgb(var(--server-channel-textc));
     filter: opacity(0.2);
     transition: 0.25s ease;
 }
-.container-YkUktl .button-12Fmur:hover { /*Mute/Deafen/Settings buttons*/
+.container-YkUktl .button-12Fmur:hover {
+    /*Mute/Deafen/Settings buttons*/
     filter: opacity(0.65) drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
     background-color: transparent;
 }
-.container-YkUktl .button-12Fmur[aria-checked='true'] { /*Mute/Deafen/Settings buttons checked*/
+.container-YkUktl .button-12Fmur[aria-checked="true"] {
+    /*Mute/Deafen/Settings buttons checked*/
     filter: opacity(1) drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.container-YkUktl .button-12Fmur .strikethrough-2Kl6HF { /*Mute/Deafen strikethrough*/
+.container-YkUktl .button-12Fmur .strikethrough-2Kl6HF {
+    /*Mute/Deafen strikethrough*/
     color: rgb(var(--accent-color));
 }
 .container-1zzFcN,
 .activityPanel-9icbyU,
-.listeningAlong-6YvYsc { /*Connected to server / User activity*/
+.listeningAlong-6YvYsc {
+    /*Connected to server / User activity*/
     border-bottom: none;
 }
 .connection-3k9QeF,
 .voiceUsers-3gPcwY,
 .activityPanel-9icbyU,
-.listeningAlong-6YvYsc { /*Connected to server text*/
+.listeningAlong-6YvYsc {
+    /*Connected to server text*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.button-12Fmur { /*Buttons*/
+.button-12Fmur {
+    /*Buttons*/
     color: rgba(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.button-12Fmur.enabled-9OeuTA:hover { /*Buttons hovered*/
+.button-12Fmur.enabled-9OeuTA:hover {
+    /*Buttons hovered*/
     background-color: transparent;
     color: rgba(var(--server-channel-textc), 1);
 }
 
-#status-picker.menu-1QACrS { /*Select status menu*/
+#status-picker.menu-1QACrS {
+    /*Select status menu*/
     transform-origin: bottom;
 }

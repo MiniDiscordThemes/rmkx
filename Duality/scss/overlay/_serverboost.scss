@@ -9,7 +9,9 @@
     height: calc(var(--settings-heigth) - 5%);
     background: var(--popout-bg) center/cover !important;
     border-radius: var(--main-radius);
-    box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569), -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
+    box-shadow:
+        -3px -6px 10px 10px rgba(0, 0, 0, 0.569),
+        -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
     pointer-events: all !important;
 }
 .root-2zfUH6 .closeButton-PCZcma::before {

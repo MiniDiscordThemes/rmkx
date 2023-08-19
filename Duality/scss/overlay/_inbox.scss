@@ -1,13 +1,15 @@
 /*Inbox settings*/
 
-.container-2ebMPP { /*Main modal*/
+.container-2ebMPP {
+    /*Main modal*/
     background: transparent;
     border-radius: var(--main-radius);
     background-color: transparent;
     box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
 }
-.container-2ebMPP::before { /*Main modal background*/
-    content: '';
+.container-2ebMPP::before {
+    /*Main modal background*/
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -18,22 +20,25 @@
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.container-2ebMPP::after { /*Main modal opacity*/
-    content: '';
+.container-2ebMPP::after {
+    /*Main modal opacity*/
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     border-radius: var(--main-radius);
-    background-color: rgba(0,0,0, var(--popout-opacity));
+    background-color: rgba(0, 0, 0, var(--popout-opacity));
     z-index: -1;
 }
-.icon-2yhmi8 { /*No messges icon*/
+.icon-2yhmi8 {
+    /*No messges icon*/
     background-color: transparent;
 }
 .iconContainer-33_6mP,
 .container-2ebMPP .header-3rvP-v,
-.container-2ebMPP .colorHeaderSecondary-g5teka { /*Empty messges text*/
+.container-2ebMPP .colorHeaderSecondary-g5teka {
+    /*Empty messges text*/
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
