@@ -2,8 +2,8 @@ name: Lint
 
 on:
   push:
-    branches-ignore:
-      - deploy
+    tags:
+      - "v*"
   pull_request:
 
 jobs:

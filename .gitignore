@@ -1,1 +1,13 @@
-node_modules
+# Packages
+/node_modules
+
+# Build
+/dist
+/bundle
+/src
+
+# Social images
+/preview
+
+# Images
+*.png

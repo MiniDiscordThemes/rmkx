@@ -1,16 +1,15 @@
 # Folders
-.github
-.parcel-cache
-bundle
-dist
-node_modules
-preview
+/.github
+/bundle
+/dist
+/node_modules
+/preview
+/image
 
 # File types
 *.md
 *.min.css
 *.theme.css
-*.code-workspace
 
 # Files
 LICENSE

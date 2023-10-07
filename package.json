@@ -1,17 +1,25 @@
 {
-    "name": "rmkx-discord-themes",
-    "version": "1.0.0",
-    "description": "rmkx's Discord themes with updated selectors.",
-    "repository": "github:MiniDiscordThemes/rmkx",
-    "author": "Saltssaumure <themes@saltssaumure.net>",
-    "license": "UNLICENSED",
-    "private": true,
-    "scripts": {
-        "lint": "prettier ./ --check",
-        "lint:fix": "prettier ./ --write --log-level warn"
-    },
-    "type": "module",
-    "dependencies": {
-        "prettier": "^3.0.0"
-    }
+  "name": "rmkx-discord-themes",
+  "version": "2.0.0",
+  "description": "rmkx's Discord themes with updated selectors.",
+  "repository": "github:MiniDiscordThemes/rmkx",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "bd-scss dev",
+    "dev:rp": "replugged build theme --watch",
+    "dev:vc": "bd-scss dev:vc",
+    "bd": "bd-scss build",
+    "rp": "replugged bundle theme",
+    "rp:all": "replugged bundle theme --all",
+    "lint": "prettier ./scss --check",
+    "lint:fix": "prettier ./scss --write --log-level warn",
+    "release": "pnpm lint:fix && replugged release"
+  },
+  "type": "module",
+  "dependencies": {
+    "prettier": "^3.0.3",
+    "salt-bd-scss": "^1.1.0"
+  }
 }
