@@ -7,7 +7,7 @@
  * @version      1.0 
  */
 
-.wrapper-1_HaEi {
+.wrapper__216eb {
     /*Guild wrapper*/
     position: absolute;
     left: 50%;
@@ -18,7 +18,7 @@
     height: 12.5px;
     transition: 250ms ease-in;
 }
-.tree-3agP2X {
+.tree__7a511 {
     /*Guild subcontainer*/
     position: absolute;
     top: 100%;
@@ -29,15 +29,15 @@
     width: 12.5px;
     transition: 250ms ease-in;
 }
-.wrapper-1_HaEi:hover {
+.wrapper__216eb:hover {
     /*Guild wrapper hover*/
     height: 69px;
 }
-.wrapper-1_HaEi:hover .tree-3agP2X {
+.wrapper__216eb:hover .tree__7a511 {
     /*Guild subcontainer hover*/
     width: 69px;
 }
-.scroller-3X7KbA {
+.scroller_de945b {
     /*Centers server icons on the guild bar*/
     margin-top: 20px;
     margin-bottom: 20px;
@@ -48,7 +48,7 @@
 }
 
 /*DevilBro's Server Folder compatibility*/
-.wrapper-1_HaEi.content-Pph8t6 {
+.wrapper__216eb.content-Pph8t6 {
     /*Main folder modal when hidden*/
     position: absolute;
     width: 900px;
@@ -59,7 +59,7 @@
     /*Folder modal when closed*/
     visibility: hidden;
 }
-.wrapper-1_HaEi.content-Pph8t6:hover:not(.hidden-10MsGQ) {
+.wrapper__216eb.content-Pph8t6:hover:not(.hidden__7c832) {
     /*Main folder modal expanded*/
     position: absolute;
     transform: translateX(-50%) translateY(-12.5px);

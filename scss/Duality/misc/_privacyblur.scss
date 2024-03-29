@@ -1,20 +1,20 @@
 /*Blur Username, E-mail and phone in settings*/
 
-.field-21XZwa + .field-21XZwa .colorHeaderPrimary-jN_yGr.size16-rrJ6ag {
+.field__69fa0 + .field__69fa0 .colorHeaderPrimary-jN_yGr.size16-rrJ6ag {
     /*Blurs e-mail and phone number*/
     filter: blur(8px);
     transition: 0.2s ease;
 }
-.field-21XZwa + .field-21XZwa .colorHeaderPrimary-jN_yGr.size16-rrJ6ag:hover {
+.field__69fa0 + .field__69fa0 .colorHeaderPrimary-jN_yGr.size16-rrJ6ag:hover {
     /*Unblurs e-mail and phone number*/
     filter: blur(0px) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
-.usernameInnerRow-1-STdK {
+.usernameInnerRow_c95e17 {
     /*Blurs username*/
     filter: blur(8px);
     transition: 0.2s ease;
 }
-.usernameInnerRow-1-STdK:hover {
+.usernameInnerRow_c95e17:hover {
     /*Unblurs username*/
     filter: blur(0px) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }

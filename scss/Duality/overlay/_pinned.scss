@@ -1,6 +1,6 @@
 /*Pinned messages modal*/
 
-.iconBadge-3Mmg92 {
+.iconBadge__20a6b {
     /*Pinned messages icon*/
     background-color: rgb(var(--accent-color), 0.55);
 }
@@ -13,7 +13,7 @@
     }
 }
 
-.messagesPopoutWrap-3zryHW {
+.messagesPopoutWrap__10dd1 {
     /*Main modal*/
     border-radius: var(--main-radius);
     background: transparent;
@@ -22,7 +22,7 @@
     animation: menuShow 0.25s ease;
     transform-origin: top;
 }
-.messagesPopoutWrap-3zryHW::before {
+.messagesPopoutWrap__10dd1::before {
     /*Main modal background*/
     content: "";
     position: absolute;
@@ -35,7 +35,7 @@
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.messagesPopoutWrap-3zryHW::after {
+.messagesPopoutWrap__10dd1::after {
     /*Main modal opacity*/
     content: "";
     position: absolute;
@@ -47,18 +47,18 @@
     background-color: rgba(0, 0, 0, var(--popout-opacity));
     z-index: -1;
 }
-.messagesPopoutWrap-3zryHW .header-1w9Q93 {
+.messagesPopoutWrap__10dd1 .header__21b33 {
     /*Header*/
     box-shadow: none;
     color: rgb(var(--server-channel-textc));
     text-align: center;
 }
-.header-1w9Q93 .base-21yXnu {
+.header__21b33 .base-21yXnu {
     /*Header text*/
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
     font-size: 1.15rem;
 }
-.header-1w9Q93 .base-21yXnu::after {
+.header__21b33 .base-21yXnu::after {
     /*Header*/
     content: "";
     position: absolute;
@@ -69,26 +69,26 @@
     width: 38%;
     background-color: rgb(var(--server-channel-textc));
 }
-.header-1w9Q93,
-.messageGroupWrapper-1jf_7C {
+.header__21b33,
+.messageGroupWrapper__1fce2 {
     /*Subcointainers*/
     background-color: transparent;
     border: unset;
 }
-.jumpButton-1ZwI_j,
-.button-cfOvv- {
+.jumpButton__309d6,
+.button_ef08e7 {
     /*Jump to message buton*/
     background-color: transparent;
     color: rgba(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.jumpButton-1ZwI_j:hover,
-.button-cfOvv-:hover {
+.jumpButton__309d6:hover,
+.button_ef08e7:hover {
     /*Jump to message buton*/
     color: rgba(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.footer-5ji8u1 {
+.footer__6b9ef {
     /*Pinned messages footer*/
     background-color: transparent;
 }

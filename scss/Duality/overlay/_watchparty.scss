@@ -1,48 +1,48 @@
 /*Watch party thingy*/
 
-.scroller-35tvpe,
-.callContainer-BGIngG,
-.container-cH6QoY,
-.rowContainer-jDvyA4,
+.scroller__3c95c,
+.callContainer__486b0,
+.container_ffbc98,
+.rowContainer__05af6,
 .container-3r7mfc,
-.participants-3hk3ND {
+.participants__921a9 {
     /*Main modals*/
     background-color: transparent;
 }
-.divider-vv_iHh {
+.divider__93173 {
     border: none;
 }
 .container-3r7mfc,
-.rowContainer-jDvyA4,
+.rowContainer__05af6,
 .roleContainer-WStCpt {
     /*Shadows*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.tileContainer-Os085F {
+.tileContainer__9f7be {
     /*Users*/
     transition: 0.25s ease;
 }
-.tileContainer-Os085F:hover {
+.tileContainer__9f7be:hover {
     /*User hovered*/
     background-color: transparent;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.auto-1QyTTa::-webkit-scrollbar-thumb {
+.auto_cf9d15::-webkit-scrollbar-thumb {
     /*Scrollbar thumb*/
     background-color: rgb(var(--main-dark-color)) !important;
 }
-.auto-1QyTTa::-webkit-scrollbar-thumb,
-.auto-1QyTTa::-webkit-scrollbar-track {
+.auto_cf9d15::-webkit-scrollbar-thumb,
+.auto_cf9d15::-webkit-scrollbar-track {
     /*Scrollbar thing*/
     border: none;
 }
-.participantsButton-1WBdFP,
-.cta-3-AFNF {
+.participantsButton__11fa3,
+.cta__69e2a {
     /*Call participants button*/
     background-color: rgba(0, 0, 0, 0.3);
 }
-.participantsButton-1WBdFP:hover,
-.cta-3-AFNF:hover {
+.participantsButton__11fa3:hover,
+.cta__69e2a:hover {
     /*Call participants button hovered*/
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -50,12 +50,12 @@
     /*Invite separator*/
     box-shadow: unset !important;
 }
-.inviteRow-3vmB7i {
+.inviteRow_d6ad74 {
     /*Invite friend to channel*/
     color: rgb(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.inviteRow-3vmB7i:hover {
+.inviteRow_d6ad74:hover {
     /*Invite friend to channel hovered*/
     background-color: transparent !important;
     color: rgb(var(--server-channel-textc));

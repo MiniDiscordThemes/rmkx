@@ -4,14 +4,14 @@
     --transition-speed: 0.35s; /*Changes the transition speed*/
 }
 
-.chatContent-3KubbW {
+.chatContent_f087cb {
     /*Chat pannel and message box*/
     position: absolute;
     width: 97% !important;
     height: 100%;
 }
 /*Hides server members list*/
-.membersWrap-3NUR2t {
+.membersWrap__5ca6b {
     position: absolute;
     top: 0;
     right: 0%;
@@ -30,7 +30,7 @@
     transition: transform var(--transition-speed) ease-in;
     will-change: transform;
 }
-.membersGroup-2eiWxl {
+.membersGroup_cad095 {
     /*Hides the member's role*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -44,18 +44,18 @@
     transition: color var(--transition-speed) ease-in;
     will-change: color;
 }
-.member-2gU6Ar {
+.member_aa4760 {
     /*Moves server members a bit to the left and separates them for aesthetic purposes*/
     margin-left: 2px;
     margin-bottom: 3px;
 }
 
 /*Shows the server members list*/
-.membersWrap-3NUR2t:hover {
+.membersWrap__5ca6b:hover {
     /*Shows server's members*/
     transform: translateX(var(--members-showing));
 }
-.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+.membersWrap__5ca6b:hover .membersGroup_cad095 {
     /*Shows members roles when hovering*/
     color: white;
 }

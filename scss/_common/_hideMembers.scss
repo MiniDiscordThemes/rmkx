@@ -16,7 +16,7 @@
 }
 
 /*Hides server members list*/
-.container-2o3qEW {
+.container_f79ab4 {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0, 0, 0);
@@ -31,7 +31,7 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.bd-minimal .container-2o3qEW {
+.bd-minimal .container_f79ab4 {
     /*Minimal mode server members hiding*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -47,7 +47,7 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.membersGroup-2eiWxl {
+.membersGroup_cad095 {
     /*Hides the member's role*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -61,14 +61,14 @@
     transition: color var(--transition-speed) ease-in;
     will-change: color;
 }
-.member-2gU6Ar {
+.member_aa4760 {
     /*Moves server members a bit to the left and separates them for aesthetic purposes*/
     margin-left: 2px;
     margin-bottom: 3px;
 }
 
 /*Shows the server members list*/
-.container-2o3qEW:hover {
+.container_f79ab4:hover {
     /*Shows server's members*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -81,7 +81,7 @@
     width: var(--showing-width);
     will-change: width;
 }
-.bd-minimal .container-2o3qEW:hover {
+.bd-minimal .container_f79ab4:hover {
     /*Minimal mode server members showing*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -94,7 +94,7 @@
     width: calc(var(--showing-width) - 1.9%);
     will-change: width;
 }
-.container-2o3qEW:hover .membersGroup-2eiWxl {
+.container_f79ab4:hover .membersGroup_cad095 {
     /*Shows members roles when hovering*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;

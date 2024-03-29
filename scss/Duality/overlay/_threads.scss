@@ -1,13 +1,13 @@
 /*Threads*/
 
-.container-18GwIk {
+.container_f93da8 {
     /*Main modal*/
     background: transparent;
     border-radius: var(--main-radius);
     animation: menuShow 0.25s ease;
     transform-origin: bottom;
 }
-.container-18GwIk::before {
+.container_f93da8::before {
     /*Main modal background*/
     content: "";
     position: absolute;
@@ -20,7 +20,7 @@
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.container-18GwIk::after {
+.container_f93da8::after {
     /*Main modal opacity*/
     content: "";
     position: absolute;
@@ -32,47 +32,47 @@
     background-color: rgba(0, 0, 0, var(--popout-opacity));
     z-index: -1;
 }
-.header-3_zmOb {
+.header__6d44a {
     background-color: transparent;
 }
-.header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu,
+.header__6d44a .tabBar_e25e30 .tab_e864e6,
 .list-1uSVgu .tabBar-3N44FC .tab-1tp4jL {
     /*Tab buttons*/
     color: rgba(var(--server-channel-textc), 0.2);
     transition: 0.25s ease;
 }
-.header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu:hover,
+.header__6d44a .tabBar_e25e30 .tab_e864e6:hover,
 .list-1uSVgu .tabBar-3N44FC .tab-1tp4jL:hover {
     /*Tab buttons hover*/
     color: rgba(var(--server-channel-textc), 0.65);
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
     background-color: transparent !important;
 }
-.header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu.active-346HgG,
+.header__6d44a .tabBar_e25e30 .tab_e864e6.active__90acf,
 .list-1uSVgu .tabBar-3N44FC .tab-1tp4jL.active-3WMEyE {
     /*Selected tab*/
     color: rgba(var(--server-channel-textc), 1) !important;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
     background-color: transparent !important;
 }
-.divider-2xk5N2 {
+.divider__622af {
     /*Divider*/
     background: transparent;
 }
-.icon-mJhEWn {
+.icon__89b22 {
     /*svg background*/
     background: transparent;
 }
-.row-1qtctT {
+.row__9e25f {
     color: rgb(var(--server-channel-textc)) !important;
     filter: opacity(0.2);
     transition: filter 0.25s ease;
 }
-.row-1qtctT:hover {
+.row__9e25f:hover {
     filter: opacity(0.45) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
     background: none;
 }
-.chatHeaderBar-2fUORh {
+.chatHeaderBar__9e6ac {
     height: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;

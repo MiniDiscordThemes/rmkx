@@ -1,59 +1,59 @@
 /*Explore servers*/
 
-.pageWrapper-2PwDoS {
+.pageWrapper_c182d3 {
     /*Main modal*/
     background-color: transparent !important;
     height: 98%;
 }
-.headerImage-2D5D-v {
+.headerImage_bc3304 {
     /*Explore servers banner*/
     display: none;
 }
-.searchBox-pyIJJj {
+.searchBox__56feb {
     /*Explore servers searchbar*/
     background-color: transparent !important;
     box-shadow: unset !important;
 }
-.search-25t1e9 .searchBox-31Zv9h,
-.input-m1-Y7Q {
+.search_e47903 .searchBox__02d0b,
+.input__0c568 {
     /*Explore servers searchbar subcontainer*/
     background-color: transparent;
 }
-.search-25t1e9 {
+.search_e47903 {
     /*Explore servers searchbar glow*/
     border: 1px solid rgba(var(--server-channel-textc), 0.35);
     border-radius: var(--button-radius);
     transition: 0.25s ease;
 }
-.search-25t1e9:hover {
+.search_e47903:hover {
     /*Explore servers searchbar hovered glow*/
     border: 1px solid rgba(var(--server-channel-textc), 0.65);
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.search-25t1e9:focus-within {
+.search_e47903:focus-within {
     /*Explore servers searchbar focused glow*/
     border: 1px solid rgba(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz,
-.search-25t1e9 .searchBox-31Zv9h .colorMuted-20987_ {
+.search_e47903 .searchBox__02d0b .searchBoxInput__56498,
+.search_e47903 .searchBox__02d0b .colorMuted-20987_ {
     color: rgb(var(--server-channel-textc));
 }
-.search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0 {
+.search_e47903 .searchBox__02d0b .closeIcon_da3bc1 {
     /*Close button*/
     color: rgb(var(--server-channel-textc));
 }
-.card-2TuZPZ {
+.card__86773 {
     /*Public servers card*/
     border-radius: var(--main-radius);
     background-color: rgba(var(--main-dark-color), 0.35) !important;
     transition: filter 0.25s ease;
 }
-.card-2TuZPZ:hover {
+.card__86773:hover {
     /*Public servers card*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.iconMask-2fMR98 {
+.iconMask__4092e {
     /*Public servers icon*/
     background-color: transparent !important;
 }
@@ -75,7 +75,7 @@
     background-color: transparent;
     filter: opacity(1) drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.categoryItem-1QIroW:hover .layout-1qmrhw,
+.categoryItem-1QIroW:hover .layout_bb8e67,
 .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
     /*Explore hovered/selected background*/
     background-color: transparent;

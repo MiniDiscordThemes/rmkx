@@ -1,58 +1,58 @@
 /*Mentions settings*/
 
-.header-145e10 .tab-TRrPC8 {
+.header__58a85 .tab_a8a066 {
     /*Tab settings*/
     color: rgba(var(--server-channel-textc), 0.2);
     transition: 0.25s ease;
 }
-.header-145e10 .tabBar-1qdMr5 .tab-TRrPC8:hover {
+.header__58a85 .tabBar__2aa8e .tab_a8a066:hover {
     /*Hovered tab*/
     background-color: transparent !important;
     color: rgba(var(--server-channel-textc), 0.65);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
+.header__58a85 .tabBar__2aa8e .tab_a8a066.active__7e7af {
     /*Selected tab*/
     background-color: transparent !important;
     color: rgba(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.secondary-2bzKEX {
+.secondary__45d4f {
     /*Filter button*/
     color: rgba(var(--server-channel-textc), 0.35);
     background-color: transparent;
     transition: 0.25s ease;
 }
-.secondary-2bzKEX:hover:not(.disabled-184-il) {
+.secondary__45d4f:hover:not(.disabled__4d064) {
     /*Filter button hovered*/
     background-color: transparent;
     color: rgba(var(--server-channel-textc), 0.65);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.channelHeader-DFRX8q,
-.messageContainer-3VTXBC {
+.channelHeader_ea0f89,
+.messageContainer_cb3d47 {
     /*Mentions*/
     background-color: transparent;
 }
-.button-1_oXub {
+.button__292b6 {
     /*Close mention button*/
     background-color: transparent;
     color: rgb(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.tertiary-1e-lAP:hover:not(.disabled-184-il) {
+.tertiary_ad6d80:hover:not(.disabled__4d064) {
     /*Close mention button hovered*/
     background-color: transparent;
     color: rgb(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.jumpButton-1V_1FA {
+.jumpButton__6c38c {
     /*Jump to message buton*/
     background-color: transparent;
     color: rgba(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.jumpButton-1V_1FA:hover {
+.jumpButton__6c38c:hover {
     /*Jump to message buton*/
     color: rgba(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));

@@ -17,7 +17,7 @@
 
 /*Hides the server's channel list*/
 
-.sidebar-1tnWFu {
+.sidebar_e031be {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0, 0, 0);
@@ -30,7 +30,7 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.bd-minimal .sidebar-1tnWFu {
+.bd-minimal .sidebar_e031be {
     /*Minimal mode channels*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -44,13 +44,13 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.content-1gYQeQ {
+.wrapper__612a5 {
     /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
     margin-left: 5px;
 }
-.mainContent-uDGa6R .overflow-1wOqNV,
-.icon-3zI3d2 {
+.mainContent__2333c .overflow__993fa,
+.icon__3aa8e {
     /*Hides the channel group*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -64,7 +64,7 @@
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.wrapper-2fEmwW {
+.wrapper__71278 {
     /*Hides the amount of people in a voice channel when hidden*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -78,7 +78,7 @@
     transition: visibility calc(var(--transition-speed) - 0.2s) ease;
     will-change: visibility;
 }
-.containerDefault-3TQ5YN {
+.containerDefault_e3b32b {
     /*Removes padding between channels when hidden for aesthetical purposes*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -92,35 +92,35 @@
     transition: padding var(--transition-speed) ease;
     will-change: padding;
 }
-.container-1oeRFJ.channel-1Shao0 {
+.container_a48b21.channel__0aef5 {
     /*Moves the online friends list to the left for aesthetical purposes*/
     margin-left: 0px;
 }
-.layout-1qmrhw.channel-1Shao0 {
+.layout_bb8e67.channel__0aef5 {
     /*Moves the online friends list to the left for aesthetical purposes*/
     padding-left: 0px;
 }
-.containerDefault-YUSmu3 {
+.containerDefault_ae2ea4 {
     /*Server channel normal background*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.selected-1-Z6gm.container-1oeRFJ {
+.selected__7f4cb.container_a48b21 {
     /*Selected friend settings*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.containerDefault-YUSmu3 .modeSelected-3DmyhH {
+.containerDefault_ae2ea4 .modeSelected__473f1 {
     /*Selected server channel background*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.voiceUserSummary-huJ8Md {
+.voiceUserSummary__5794e {
     /*Voice Channels when collapsed*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
-.actionIcon-2sw4Sl {
+.actionIcon_b149a2 {
     /*Hides the invite to channel button when panel is hidden*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -134,7 +134,7 @@
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.listeningAlong-6YvYsc {
+.listeningAlong_a3b241 {
     /*Hides the listening along panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -153,7 +153,7 @@
         padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.wrapper-3Hk9OB {
+.wrapper_e832ee {
     /*Hides the connected channel panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -172,7 +172,7 @@
         padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.activityPanel-9icbyU {
+.activityPanel_b73e7a {
     /*Hides the sharing screen panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -191,7 +191,7 @@
         padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.list-2x9Cl9 {
+.list__02208 {
     /*Moves people connected to a voice channel when hidden*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -205,7 +205,7 @@
     transition: padding var(--transition-speed) ease;
     will-change: padding;
 }
-.addButton-2mlqCW {
+.addButton__184db {
     /*Hides the add channel in the channel list*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -219,7 +219,7 @@
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.listDefault-2F-w65 .avatarContainer-3FF_Km {
+.listDefault__4e3fa .avatarContainer__5724c {
     /*Centers the avatars of peole connected to a vc even more*/
     margin-left: 5px;
 }
@@ -240,12 +240,12 @@
         top var(--transition-speed) ease-in;
     will-change: top, left;
 }
-.button-2BMPJJ {
+.button__84b6b {
     /* Arrow button*/
     margin-left: -3px;
 }
-.privateChannelsHeaderContainer-1UWASm,
-.privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y {
+.privateChannelsHeaderContainer_b22dc9,
+.privateChannelsHeaderContainer_b22dc9 > .clickable_ce0925 .icon_ae0b42 {
     /*New Direct Message text*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -259,7 +259,7 @@
     transition: color var(--transition-speed) ease;
     will-change: color;
 }
-.searchBar-3TnChZ {
+.searchBar__621ec {
     /*Hides the searchbar on top of DMs*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -273,7 +273,7 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.header-3OsQeK {
+.header__77c95 {
     /*Server name panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -288,17 +288,17 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.bd-minimal .privateChannels-oVe7HL .layout-1qmrhw {
+.bd-minimal .privateChannels__9b518 .layout_bb8e67 {
     /*Channel container*/
     justify-content: unset;
     padding-left: 0;
 }
-.bd-minimal .privateChannels-oVe7HL .layout-1qmrhw .avatar-6qzftW {
+.bd-minimal .privateChannels__9b518 .layout_bb8e67 .avatar__6337f {
     /*Minimal mode DM avatar hidden*/
     justify-content: unset;
     padding-left: 10%;
 }
-.bd-minimal .channel-1Shao0[href="/channels/@me"] {
+.bd-minimal .channel__0aef5[href="/channels/@me"] {
     /*Minimal mode friends icon wrapper*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -313,20 +313,20 @@
     min-width: 30.8px;
     max-width: 60%;
 }
-.bd-minimal .channel-1Shao0[href="/channels/@me"] .avatar-6qzftW {
+.bd-minimal .channel__0aef5[href="/channels/@me"] .avatar__6337f {
     /*Minimal mode friends icon*/
     padding-left: 0;
 }
-.bd-minimal .channel-1Shao0[href="/channels/@me"] .avatar-6qzftW,
-.bd-minimal .channel-1Shao0[href="/library"] .avatar-6qzftW,
-.bd-minimal .channel-1Shao0[href="/store"] .avatar-6qzftW {
+.bd-minimal .channel__0aef5[href="/channels/@me"] .avatar__6337f,
+.bd-minimal .channel__0aef5[href="/library"] .avatar__6337f,
+.bd-minimal .channel__0aef5[href="/store"] .avatar__6337f {
     /*Friends/Library/Nitro buttons minimal mode*/
     justify-content: center;
 }
-.bd-minimal .channel-1Shao0[href="/library"],
-.bd-minimal .channel-1Shao0[href="/store"],
-.bd-minimal .channel-1Shao0[href="/library"] .avatar-6qzftW,
-.bd-minimal .channel-1Shao0[href="/store"] .avatar-6qzftW {
+.bd-minimal .channel__0aef5[href="/library"],
+.bd-minimal .channel__0aef5[href="/store"],
+.bd-minimal .channel__0aef5[href="/library"] .avatar__6337f,
+.bd-minimal .channel__0aef5[href="/store"] .avatar__6337f {
     /*Friends/Library/Nitro buttons minimal mode*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -346,7 +346,7 @@
 
 /*Shows the server's channel list*/
 
-.sidebar-1tnWFu:hover {
+.sidebar_e031be:hover {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0, 0, 0);
@@ -357,7 +357,7 @@
     transform: translateZ(0);
     width: var(--showing-width);
 }
-.bd-minimal .sidebar-1tnWFu:hover {
+.bd-minimal .sidebar_e031be:hover {
     /*Minimal mode server channels hover*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -369,8 +369,8 @@
     transform: translateZ(0);
     width: calc(var(--showing-width) - 2.3%);
 }
-.sidebar-1tnWFu:hover .mainContent-uDGa6R .overflow-1wOqNV,
-.sidebar-1tnWFu:hover .mainContent-uDGa6R .icon-3zI3d2 {
+.sidebar_e031be:hover .mainContent__2333c .overflow__993fa,
+.sidebar_e031be:hover .mainContent__2333c .icon__3aa8e {
     /*Shows channel group*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -382,11 +382,11 @@
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .containerDefault-3TQ5YN {
+.sidebar_e031be:hover .containerDefault_e3b32b {
     /*Animates the movement of the channel groups when they show*/
     padding: 4px;
 }
-.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .actionIcon-2sw4Sl {
+.sidebar_e031be:hover .containerDefault_ae2ea4 .actionIcon_b149a2 {
     /*Shows the invite to channel button when panel is hovered*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -398,7 +398,7 @@
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .listeningAlong-6YvYsc {
+.sidebar_e031be:hover .listeningAlong_a3b241 {
     /*Shows the listening along panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -412,7 +412,7 @@
     height: auto;
     visibility: visible !important;
 }
-.sidebar-1tnWFu:hover .activityPanel-9icbyU {
+.sidebar_e031be:hover .activityPanel_b73e7a {
     /*Shows the sharing screen panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -426,7 +426,7 @@
     height: auto;
     visibility: visible !important;
 }
-.sidebar-1tnWFu:hover .wrapper-3Hk9OB {
+.sidebar_e031be:hover .wrapper_e832ee {
     /*Shows the connected channel panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -440,7 +440,7 @@
     height: auto;
     visibility: visible !important;
 }
-.sidebar-1tnWFu:hover .voiceUserSummary-huJ8Md {
+.sidebar_e031be:hover .voiceUserSummary__5794e {
     /*Showing collapsed voice chanels on server*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -453,7 +453,7 @@
     background-color: transparent;
     background: transparent;
 }
-.sidebar-1tnWFu:hover .wrapper-2fEmwW {
+.sidebar_e031be:hover .wrapper__71278 {
     /*Showing the amount of people in a voice channel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -465,7 +465,7 @@
     transform: translateZ(0);
     visibility: visible;
 }
-.sidebar-1tnWFu:hover .list-2x9Cl9 {
+.sidebar_e031be:hover .list__02208 {
     /*Moves the connected users in a voice channel back to default place*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -477,7 +477,7 @@
     transform: translateZ(0);
     padding-left: 36px;
 }
-.sidebar-1tnWFu:hover .addButton-2mlqCW {
+.sidebar_e031be:hover .addButton__184db {
     /*Shows the add server button on the channels list*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -489,7 +489,7 @@
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .mentionsBadge-2ckrKL {
+.sidebar_e031be:hover .mentionsBadge-2ckrKL {
     /*Mentioned in a channel when hovering*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -502,7 +502,7 @@
     left: initial;
     top: initial;
 }
-.sidebar-1tnWFu:hover .header-3OsQeK {
+.sidebar_e031be:hover .header__77c95 {
     /*Showing server name*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -514,8 +514,8 @@
     transform: translateZ(0);
     width: 100%;
 }
-.sidebar-1tnWFu:hover .content-2a4AW9 .privateChannelsHeaderContainer-1UWASm,
-.sidebar-1tnWFu:hover .privateChannelsHeaderContainer-1UWASm > .clickable-ZD7xvu .icon-2xnN2Y {
+.sidebar_e031be:hover .content-2a4AW9 .privateChannelsHeaderContainer_b22dc9,
+.sidebar_e031be:hover .privateChannelsHeaderContainer_b22dc9 > .clickable_ce0925 .icon_ae0b42 {
     /*Shows DM text*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -527,7 +527,7 @@
     transform: translateZ(0);
     color: white;
 }
-.sidebar-1tnWFu:hover .searchBar-3TnChZ {
+.sidebar_e031be:hover .searchBar__621ec {
     /*Shows searchbar on top of DMs*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -539,7 +539,7 @@
     transform: translateZ(0);
     width: 80%;
 }
-.bd-minimal .sidebar-1tnWFu:hover .searchBar-3TnChZ {
+.bd-minimal .sidebar_e031be:hover .searchBar__621ec {
     /*Minimal mode searchbar*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -552,8 +552,8 @@
     width: 90%;
     will-change: width;
 }
-.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/library"],
-.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/store"] {
+.bd-minimal .sidebar_e031be:hover .channel__0aef5[href="/library"],
+.bd-minimal .sidebar_e031be:hover .channel__0aef5[href="/store"] {
     /*Friends/Library/Nitro buttons minimal mode*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -570,8 +570,8 @@
         width calc(var(--transition-speed) + 0.25s) ease;
     will-change: height, width;
 }
-.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/library"] .avatar-6qzftW,
-.bd-minimal .sidebar-1tnWFu:hover .channel-1Shao0[href="/store"] .avatar-6qzftW {
+.bd-minimal .sidebar_e031be:hover .channel__0aef5[href="/library"] .avatar__6337f,
+.bd-minimal .sidebar_e031be:hover .channel__0aef5[href="/store"] .avatar__6337f {
     /*Friends/Library/Nitro buttons minimal mode*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;

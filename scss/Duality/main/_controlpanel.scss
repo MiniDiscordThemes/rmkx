@@ -1,57 +1,57 @@
 /*User status area*/
 
-.panels-3wFtMD {
+.panels__58331 {
     /*Main panel*/
     background-color: transparent;
 }
-.container-YkUktl {
+.container_debb33 {
     /*Subcontainer*/
     margin-bottom: 22px;
 }
-.container-YkUktl .button-12Fmur {
+.container_debb33 .button_ae40a4 {
     /*Mute/Deafen/Settings buttons*/
     color: rgb(var(--server-channel-textc));
     filter: opacity(0.2);
     transition: 0.25s ease;
 }
-.container-YkUktl .button-12Fmur:hover {
+.container_debb33 .button_ae40a4:hover {
     /*Mute/Deafen/Settings buttons*/
     filter: opacity(0.65) drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
     background-color: transparent;
 }
-.container-YkUktl .button-12Fmur[aria-checked="true"] {
+.container_debb33 .button_ae40a4[aria-checked="true"] {
     /*Mute/Deafen/Settings buttons checked*/
     filter: opacity(1) drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.container-YkUktl .button-12Fmur .strikethrough-2Kl6HF {
+.container_debb33 .button_ae40a4 .strikethrough__7b742 {
     /*Mute/Deafen strikethrough*/
     color: rgb(var(--accent-color));
 }
-.container-1zzFcN,
-.activityPanel-9icbyU,
-.listeningAlong-6YvYsc {
+.container_e1958d,
+.activityPanel_b73e7a,
+.listeningAlong_a3b241 {
     /*Connected to server / User activity*/
     border-bottom: none;
 }
-.connection-3k9QeF,
-.voiceUsers-3gPcwY,
-.activityPanel-9icbyU,
-.listeningAlong-6YvYsc {
+.connection__38593,
+.voiceUsers__665a5,
+.activityPanel_b73e7a,
+.listeningAlong_a3b241 {
     /*Connected to server text*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.button-12Fmur {
+.button_ae40a4 {
     /*Buttons*/
     color: rgba(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.button-12Fmur.enabled-9OeuTA:hover {
+.button_ae40a4.enabled__214db:hover {
     /*Buttons hovered*/
     background-color: transparent;
     color: rgba(var(--server-channel-textc), 1);
 }
 
-#status-picker.menu-1QACrS {
+#status-picker.menu__088f7 {
     /*Select status menu*/
     transform-origin: bottom;
 }

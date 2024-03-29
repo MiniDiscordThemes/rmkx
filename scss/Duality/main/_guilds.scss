@@ -1,8 +1,8 @@
 /*Guilds*/
 
-.childWrapper-1j_1ub,
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+.childWrapper_a6ce15,
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
+.wrapper__8436d:hover .childWrapper_a6ce15 {
     /*Home icon background color*/
     background: transparent;
 }
@@ -19,7 +19,7 @@
     /*Hovered home icon*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.tree-3agP2X:focus {
+.tree__7a511:focus {
     /*Removes outline when double clicking guild bar*/
     outline: none;
 }
@@ -72,7 +72,7 @@
     /*Server hovered element*/
     overflow: visible !important;
 }
-.item-2LIpTv {
+.item_f9d377 {
     /*Server hovered*/
     background-color: rgb(var(--server-channel-textc));
     width: 4px;
@@ -81,12 +81,12 @@
     transform: translateX(2px) !important;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.expandedFolderBackground-1kSAf6 {
+.expandedFolderBackground_b1385f {
     /*Expanded folder background*/
     background-color: transparent;
 }
 .upperBadge-1V6Iyi,
-.lowerBadge-3WTshO {
+.lowerBadge_e89e22 {
     /*Badges*/
     background-color: transparent;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
@@ -95,7 +95,7 @@
     /*Participating badge*/
     background-color: rgb(var(--accent-color), 0.55);
 }
-.numberBadge-37OJ3S {
+.numberBadge__40d6f {
     /*Number badge*/
     background-color: rgb(var(--accent-color), 0.55) !important;
 }

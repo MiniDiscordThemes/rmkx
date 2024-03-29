@@ -1,7 +1,7 @@
 /*Active Now*/
 
-.nowPlayingColumn-1eCBCN .header-Imy05m,
-.nowPlayingSidebar-2OFn0o .header-Imy05m {
+.nowPlayingColumn_b025fe .header_c56a27,
+.nowPlayingSidebar-2OFn0o .header_c56a27 {
     /*Active now text*/
     text-align: center;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
@@ -10,12 +10,12 @@
     margin-top: -4px;
     font-weight: 600;
 }
-.nowPlayingColumn-1eCBCN .wrapper-2RrXDg,
-.nowPlayingSidebar-2OFn0o .wrapper-2RrXDg {
+.nowPlayingColumn_b025fe .wrapper__3c6d5,
+.nowPlayingSidebar-2OFn0o .wrapper__3c6d5 {
     /*Active now cards main container*/
     margin-bottom: 18px;
 }
-.itemCard-3Etziu {
+.itemCard_b64118 {
     /*Active now cards*/
     border-radius: 8px;
     background: var(--popout-bg) center/cover no-repeat;
@@ -23,38 +23,38 @@
     border: unset;
     transition: box-shadow 0.25s ease;
 }
-.itemCard-3Etziu .inset-SbsSFp {
+.itemCard_b64118 .inset__61d5b {
     /*Active now activity*/
     background-color: transparent !important;
 }
-.itemCard-3Etziu:hover {
+.itemCard_b64118:hover {
     /*Active now cards*/
     box-shadow: -3px -3px 5px 3px rgba(0, 0, 0, 0.569);
 }
-.nowPlayingColumn-1eCBCN .wrapper-2RrXDg > div,
-.nowPlayingSidebar-2OFn0o .wrapper-2RrXDg > div {
+.nowPlayingColumn_b025fe .wrapper__3c6d5 > div,
+.nowPlayingSidebar-2OFn0o .wrapper__3c6d5 > div {
     /*Active now card info*/
     transition: filter 0.25s ease;
 }
-.nowPlayingColumn-1eCBCN .wrapper-2RrXDg:hover > div,
-.nowPlayingSidebar-2OFn0o .wrapper-2RrXDg:hover > div {
+.nowPlayingColumn_b025fe .wrapper__3c6d5:hover > div,
+.nowPlayingSidebar-2OFn0o .wrapper__3c6d5:hover > div {
     /*Active now hovered card info*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.nowPlayingColumn-1eCBCN .emptyText-29ycwI,
-.nowPlayingSidebar-2OFn0o .emptyText-29ycwI {
+.nowPlayingColumn_b025fe .emptyText__18c2a,
+.nowPlayingSidebar-2OFn0o .emptyText__18c2a {
     /*No one active text*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.voiceSectionDetails-3jGIB4:hover .voiceSectionText-eaaW3N {
+.voiceSectionDetails__00679:hover .voiceSectionText__406cb {
     /*Hovered activity*/
     text-decoration: none;
 }
-.separator-2OaeRP {
+.separator_fc3370 {
     /*Divider*/
     display: none;
 }
-.scroller-hE2gWq {
+.scroller__7c25e {
     /*active now border*/
     border: none;
 }

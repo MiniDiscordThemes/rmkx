@@ -1,15 +1,15 @@
 /*Windows bar related*/
 
-.winButton-3UMjdg {
+.winButton_f17fb6 {
     /*Main container*/
     left: calc(-1 * var(--window-padding) - 20px);
     top: calc(var(--window-padding) + 30px);
 }
-.winButton-3UMjdg svg {
+.winButton_f17fb6 svg {
     /*Main container icon svg*/
     display: none;
 }
-.winButton-3UMjdg::before {
+.winButton_f17fb6::before {
     /*Main container icons*/
     content: "";
     position: relative;
@@ -25,33 +25,33 @@
     filter: opacity(0.5) brightness(0.65);
     transition: filter 0.25s ease;
 }
-.winButton-3UMjdg:hover::before {
+.winButton_f17fb6:hover::before {
     /*Main container icons hovered*/
     filter: opacity(1);
 }
-.winButtonClose-3Q8ZH5 {
+.winButtonClose__6396d {
     /*Windows close button*/
     color: red;
 }
-.winButtonClose-3Q8ZH5:hover {
+.winButtonClose__6396d:hover {
     /*Windows close button hovered*/
     background-color: transparent;
     color: red;
 }
-.winButtonMinMax-3RsPUg {
+.winButtonMinMax_caf9c8 {
     /*Windows minimaze/maximize buttons*/
     color: rgb(var(--main-dark-color));
 }
-.winButtonMinMax-3RsPUg:hover {
+.winButtonMinMax_caf9c8:hover {
     /*Windows minimaze/maximize buttons hovered*/
     background-color: transparent;
     color: rgb(var(--main-dark-color));
 }
-.wordmark-2u86JB {
+.wordmark__5b8c9 {
     /*Discord Wordmark*/
     color: transparent;
 }
-.withFrame-2dL45i::after {
+.withFrame__5e49e::after {
     /*Wordmark*/
     content: "DUALITY";
     position: absolute;

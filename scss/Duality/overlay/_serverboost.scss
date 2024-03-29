@@ -14,7 +14,7 @@
         -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
     pointer-events: all !important;
 }
-.root-2zfUH6 .closeButton-PCZcma::before {
+.root__6d24f .closeButton__8177f::before {
     /*Close button left backdrop*/
     content: "";
     position: fixed;
@@ -26,7 +26,7 @@
     pointer-events: inherit;
     transition: 0.25s ease-in;
 }
-.root-2zfUH6 .closeButton-PCZcma::after {
+.root__6d24f .closeButton__8177f::after {
     /*Close button right backdrop*/
     content: "";
     position: fixed;
@@ -38,7 +38,7 @@
     pointer-events: inherit;
     transition: 0.25s ease-in;
 }
-.root-2zfUH6 .closeButton-PCZcma:active {
+.root__6d24f .closeButton__8177f:active {
     /*Makes the window dissapear*/
     transform: none;
 }
@@ -46,12 +46,12 @@
     /*Server container*/
     background-color: transparent;
 }
-.container-O54IuJ {
+.container__3529f {
     /*Close window button*/
     right: -35%;
     top: 80px;
 }
-.carousel-2M5OVB {
+.carousel__5967e {
     /*Server level panels*/
     left: 15px !important;
 }
@@ -65,17 +65,17 @@
     /*Server boost level progress bar*/
     background-color: transparent !important;
 }
-.iconWrapper-2_MXbk {
+.iconWrapper__0d13e {
     /*Server boost quantity*/
     background: transparent !important;
 }
-.iconWrapper-2_MXbk:hover {
+.iconWrapper__0d13e:hover {
     /*Server boost quantity hover*/
     background: rgb(var(--accent-color), 0.55) !important;
 }
-.icon-2TbMdT,
-.icon-2TbMdT.disabled-2gUzwG,
-.icon-2TbMdT.disabled-2gUzwG:hover {
+.icon_bb7288,
+.icon_bb7288.disabled_f8a046,
+.icon_bb7288.disabled_f8a046:hover {
     /*Server boost quantity*/
     color: rgb(var(--server-channel-textc));
 }
@@ -108,7 +108,7 @@
     background-color: rgba(0, 0, 0, 0.35) !important;
 }
 .upsellFooter-1H_OCF,
-.value-kR4BVK {
+.value__49253 {
     /*Buying boosts*/
     background-color: transparent;
 }
@@ -141,10 +141,10 @@
     /*Buy boost divider*/
     border-bottom: none;
 }
-.tierBody-1d3UiS,
-.tierHeaderLocked-30MLlO {
+.tierBody_fd5f94,
+.tierHeaderLocked__0ca2e {
     background-color: transparent !important;
 }
-.tierHeaderLocked-30MLlO {
+.tierHeaderLocked__0ca2e {
     border-bottom: 1px solid rgb(var(--server-channel-textc));
 }

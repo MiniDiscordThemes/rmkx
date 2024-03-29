@@ -12,20 +12,20 @@
     --avatar-radius: 0%;
     --user-card-width: 280px;
 }
-#app-mount .wrapper-1VLyxH svg:not(:root) {
+#app-mount .wrapper__3ed10 svg:not(:root) {
     /*Makes the status bar show*/
     overflow: visible;
 }
 
 /*Avatars*/
-.userInfo-2WpsYG .avatar-2MSPKk svg foreignObject {
+.userInfo__83819 .avatar__8986c svg foreignObject {
     /*Modifies avatar on friends list*/
     mask: none;
     border-radius: var(--avatar-radius);
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) foreignObject {
+.avatar__6337f svg:not(.linkButtonIcon_cff89e) foreignObject {
     /*Modifies avatar on server members*/
     mask: none;
     border-radius: var(--avatar-radius);
@@ -40,11 +40,11 @@
     /*User card info*/
     margin-top: 240px;
 }
-.profileBadges-2pItdR {
+.profileBadges__1f2ab {
     /*User card badges*/
     top: 52px;
 }
-.avatarPositionNormal-2jWoC2 {
+.avatarPositionNormal_ba6daa {
     /*User card avatar position*/
     top: 60px;
     left: 0;
@@ -65,29 +65,29 @@
     height: var(--user-card-width) !important;
     border: none;
 }
-.avatarHint-k7pYop {
+.avatarHint__15059 {
     /*View profile hint*/
     top: 0;
     left: 0;
     width: var(--user-card-width) !important;
     height: var(--user-card-width) !important;
 }
-.avatarHint-k7pYop foreignObject {
+.avatarHint__15059 foreignObject {
     /*View profile hint mask*/
     mask: none;
 }
-.avatar-2e8lTP.clickable-31pE3P {
+.avatar__08316.clickable__09456 {
     /*Chat avatar*/
     border-radius: var(--avatar-radius);
 }
-.container-YkUktl .avatar-1EWyVD svg foreignObject {
+.container_debb33 .avatar_f8541f svg foreignObject {
     /*Status bar avatar*/
     mask: none;
     border-radius: var(--avatar-radius);
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.repliedMessage-3Z6XBG .replyAvatar-sHd2sU {
+.repliedMessage__636d2 .replyAvatar__4ba85 {
     /*Reply avatar*/
     border-radius: var(--avatar-radius);
 }
@@ -96,7 +96,7 @@
     mask: none;
     border-radius: var(--avatar-radius);
 }
-.headerAvatar-GgCKcl svg foreignObject {
+.headerAvatar__96ca7 svg foreignObject {
     /*Active now icons*/
     mask: none;
     border-radius: var(--avatar-radius);
@@ -112,7 +112,7 @@
 }
 
 /*User status*/
-.userInfo-2WpsYG .avatar-2MSPKk svg > :last-child:not(foreignObject) {
+.userInfo__83819 .avatar__8986c svg > :last-child:not(foreignObject) {
     /*Modifies the user status on friends list*/
     mask: none;
     x: 32;
@@ -121,7 +121,7 @@
     width: 4px;
     height: inherit;
 }
-.userInfo-2WpsYG .avatar-2MSPKk svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
+.userInfo__83819 .avatar__8986c svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
     /*Status changed on friends list*/
     mask: none;
     width: 126%;
@@ -129,13 +129,13 @@
     y: 15 !important;
     x: -14 !important;
 }
-.userInfo-2WpsYG .avatar-2MSPKk svg > svg:not(foreignObject) {
+.userInfo__83819 .avatar__8986c svg > svg:not(foreignObject) {
     /*Status changed on friends list*/
     x: 0 !important;
     y: 15 !important;
     width: 40px !important;
 }
-.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) > :last-child:not(foreignObject) {
+.avatar__6337f svg:not(.linkButtonIcon_cff89e) > :last-child:not(foreignObject) {
     /*Modifies userstatus on server members*/
     mask: none;
     x: 32;
@@ -144,7 +144,7 @@
     width: 4px;
     height: inherit;
 }
-.avatar-6qzftW svg:not(.linkButtonIcon-7rsZcu) > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
+.avatar__6337f svg:not(.linkButtonIcon_cff89e) > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
     /*Status changed on server members/DMs*/
     mask: none;
     width: 126%;
@@ -153,13 +153,13 @@
     x: -14 !important;
     transform: rotate(0deg);
 }
-.avatar-6qzftW svg > svg:not(foreignObject) {
+.avatar__6337f svg > svg:not(foreignObject) {
     /*Status changed on server members/DMs*/
     x: 0 !important;
     y: 15 !important;
     width: 40px !important;
 }
-.avatarWrapper-eenWra .wrapper-1VLyxH svg > :last-child:not(foreignObject) {
+.avatarWrapper__0cd44 .wrapper__3ed10 svg > :last-child:not(foreignObject) {
     /*User card status*/
     mask: none;
     y: -80;
@@ -168,7 +168,7 @@
     width: 3px;
     height: 100%;
 }
-.avatarWrapper-eenWra .wrapper-1VLyxH svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
+.avatarWrapper__0cd44 .wrapper__3ed10 svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
     /*User card status changed settings*/
     mask: none;
     width: 200%;
@@ -177,13 +177,13 @@
     x: -48 !important;
     transform: rotate(0deg);
 }
-.avatarWrapper-eenWra .wrapper-1VLyxH svg > svg:not(foreignObject) {
+.avatarWrapper__0cd44 .wrapper__3ed10 svg > svg:not(foreignObject) {
     /*User card status changed*/
     x: 0 !important;
     y: 15 !important;
     width: 100% !important;
 }
-.container-YkUktl .avatar-1EWyVD svg > :last-child:not(foreignObject) {
+.container_debb33 .avatar_f8541f svg > :last-child:not(foreignObject) {
     /*Status bar status*/
     mask: none;
     width: 80%;
@@ -191,7 +191,7 @@
     y: 32;
     x: 0;
 }
-.container-YkUktl .avatar-1EWyVD svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
+.container_debb33 .avatar_f8541f svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
     /*Status changed settings*/
     mask: none;
     width: 126%;
@@ -199,13 +199,13 @@
     y: 15 !important;
     x: -14 !important;
 }
-.container-YkUktl .avatar-1EWyVD svg > svg:not(foreignObject) {
+.container_debb33 .avatar_f8541f svg > svg:not(foreignObject) {
     /*Status changed settings*/
     x: 0 !important;
     y: 15 !important;
     width: 40px !important;
 }
-.headerAvatar-GgCKcl svg > :last-child:not(foreignObject) {
+.headerAvatar__96ca7 svg > :last-child:not(foreignObject) {
     /*Active now status*/
     mask: none;
     x: 32;
@@ -214,7 +214,7 @@
     width: 4px;
     height: inherit;
 }
-.headerAvatar-GgCKcl svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
+.headerAvatar__96ca7 svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) {
     /*Status changed on active now*/
     mask: none;
     width: 126%;
@@ -222,7 +222,7 @@
     y: 15 !important;
     x: -14 !important;
 }
-.headerAvatar-GgCKcl svg > svg:not(foreignObject) {
+.headerAvatar__96ca7 svg > svg:not(foreignObject) {
     /*Status changed on active now*/
     x: 0 !important;
     y: 15 !important;

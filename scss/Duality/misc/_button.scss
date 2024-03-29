@@ -1,16 +1,16 @@
 /*Button settings*/
 
-.lookFilled-yCfaCM.colorGreen-3y-Z79,
-.lookFilled-yCfaCM.colorGrey-2iAG-B,
-.lookFilled-yCfaCM.colorBrand-I6CyqQ,
-.lookFilled-yCfaCM.colorRed-rQXKgM,
-.lookOutlined-3yKVGo.colorRed-rQXKgM,
-.lookOutlined-3yKVGo.colorBrand-I6CyqQ,
-.lookInverted-2mDUMi.colorBrand-I6CyqQ,
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo,
-.lookInverted-2mDUMi.colorGreen-3y-Z79,
+.lookFilled__950dd.colorGreen__75c93,
+.lookFilled__950dd.colorGrey-2iAG-B,
+.lookFilled__950dd.colorBrand__27d57,
+.lookFilled__950dd.colorRed-rQXKgM,
+.lookOutlined__014b5.colorRed-rQXKgM,
+.lookOutlined__014b5.colorBrand__27d57,
+.lookInverted_a299dc.colorBrand__27d57,
+.lookOutlined__014b5.colorPrimary_ebe632,
+.lookInverted_a299dc.colorGreen__75c93,
 .buttonInvertedPurple-WtBglX,
-.lookOutlined-3yKVGo.colorGreen-3y-Z79 {
+.lookOutlined__014b5.colorGreen__75c93 {
     /*Buttons main settings*/
     border-radius: var(--button-radius);
     border: 1px solid;
@@ -19,23 +19,23 @@
     filter: opacity(0.35);
     transition: filter 0.25s ease;
 }
-.lookFilled-yCfaCM.colorGreen-3y-Z79:hover,
-.lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
-.lookFilled-yCfaCM.colorRed-rQXKgM:hover,
-.lookOutlined-3yKVGo.colorRed-rQXKgM:hover,
-.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,
-.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover,
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover,
-.lookInverted-2mDUMi.colorGreen-3y-Z79:hover,
+.lookFilled__950dd.colorGreen__75c93:hover,
+.lookFilled__950dd.colorGrey-2iAG-B:hover,
+.lookFilled__950dd.colorBrand__27d57:hover,
+.lookFilled__950dd.colorRed-rQXKgM:hover,
+.lookOutlined__014b5.colorRed-rQXKgM:hover,
+.lookOutlined__014b5.colorBrand__27d57:hover,
+.lookInverted_a299dc.colorBrand__27d57:hover,
+.lookOutlined__014b5.colorPrimary_ebe632:hover,
+.lookInverted_a299dc.colorGreen__75c93:hover,
 .buttonInvertedPurple-WtBglX:hover,
-.lookOutlined-3yKVGo.colorGreen-3y-Z79:hover {
+.lookOutlined__014b5.colorGreen__75c93:hover {
     /*Hovered buttons main settings*/
     background-color: transparent !important;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.lookFilled-yCfaCM.colorPrimary-2AuQVo,
-.lookFilled-yCfaCM.colorWhite-1H92hK {
+.lookFilled__950dd.colorPrimary_ebe632,
+.lookFilled__950dd.colorWhite-1H92hK {
     /*Discord nitro gift grey button*/
     border-radius: var(--button-radius);
     border: 1px solid;
@@ -44,110 +44,110 @@
     filter: opacity(0.55);
     transition: filter 0.25s ease;
 }
-.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
-.lookFilled-yCfaCM.colorWhite-1H92hK:hover {
+.lookFilled__950dd.colorPrimary_ebe632:hover,
+.lookFilled__950dd.colorWhite-1H92hK:hover {
     /*Discord nitro gift grey button hovered*/
     background-color: transparent !important;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.lookFilled-yCfaCM.colorRed-rQXKgM,
-.lookOutlined-3yKVGo.colorRed-rQXKgM {
+.lookFilled__950dd.colorRed-rQXKgM,
+.lookOutlined__014b5.colorRed-rQXKgM {
     /*Different red buttons*/
     border-color: red;
     color: red !important;
 }
-.lookFilled-yCfaCM.colorGrey-2iAG-B {
+.lookFilled__950dd.colorGrey-2iAG-B {
     /*Different grey buttons*/
     background-color: transparent !important;
     border-color: rgb(var(--server-channel-textc));
 }
-.lookLink-15mFoz.colorPrimary-2AuQVo .contents-3ca1mk {
+.lookLink_a2da25.colorPrimary_ebe632 .contents-3ca1mk {
     /*Cancel button*/
     color: rgb(var(--server-channel-textc)) !important;
     filter: opacity(0.35);
     transition: filter 0.25s ease;
 }
-.lookLink-15mFoz.colorPrimary-2AuQVo:hover .contents-3ca1mk:hover {
+.lookLink_a2da25.colorPrimary_ebe632:hover .contents-3ca1mk:hover {
     /*Cancel button*/
     color: rgb(var(--server-channel-textc));
     background-image: none;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
+.lookFilled__950dd.colorBrand__27d57:disabled {
     background-color: transparent;
 }
-.title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA .icon-2xnN2Y {
+.title_d4ba1a .children_cde9af .iconWrapper_de6cd1 .icon_ae0b42 {
     /*Channel description icon*/
     color: rgb(var(--server-channel-textc));
 }
-.lookLink-15mFoz.colorBrand-I6CyqQ {
+.lookLink_a2da25.colorBrand__27d57 {
     /*No thanks button*/
     filter: opacity(0.35);
     transition: 0.25s ease;
 }
-.lookLink-15mFoz.colorBrand-I6CyqQ:hover {
+.lookLink_a2da25.colorBrand__27d57:hover {
     /*No thanks button hovered*/
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.lookLink-15mFoz.colorBrand-I6CyqQ:hover .contents-3ca1mk {
+.lookLink_a2da25.colorBrand__27d57:hover .contents-3ca1mk {
     /*No thanks button underline*/
     background: none;
 }
-.lookOutlined-3yKVGo.colorWhite-1H92hK {
+.lookOutlined__014b5.colorWhite-1H92hK {
     /*Activity buttons*/
     border-radius: var(--button-radius);
     color: rgb(var(--server-channel-textc), 0.65);
     border-color: rgb(var(--server-channel-textc), 0.65);
     transition: 0.25s ease;
 }
-.lookOutlined-3yKVGo.colorWhite-1H92hK:hover {
+.lookOutlined__014b5.colorWhite-1H92hK:hover {
     /*Activity buttons*/
     color: rgb(var(--server-channel-textc), 1);
     border-color: rgb(var(--server-channel-textc), 1);
 }
-.lookOutlined-3yKVGo.colorWhite-1H92hK:disabled {
+.lookOutlined__014b5.colorWhite-1H92hK:disabled {
     /*Disabled activity button*/
     color: rgb(var(--server-channel-textc), 0.25);
     border-color: rgb(var(--server-channel-textc), 0.25);
 }
-.colorable-3rVGna.primaryDark-2UJt1G {
+.colorable__4f530.primaryDark_ec74a7 {
     /*Raise hand button*/
     background-color: transparent;
     color: rgb(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.colorable-3rVGna.primaryDark-2UJt1G:hover {
+.colorable__4f530.primaryDark_ec74a7:hover {
     /*Raise hand button*/
     background-color: transparent;
     color: rgb(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
-.button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
-.button-1EGGcP.buttonColor-3bP3fX:disabled,
-.button-1EGGcP .buttonColor-3bP3fX:disabled {
+.button_b82d53.buttonColor__7bad9.fauxDisabled_daee54,
+.button_b82d53 .buttonColor__7bad9.fauxDisabled_daee54,
+.button_b82d53.buttonColor__7bad9:disabled,
+.button_b82d53 .buttonColor__7bad9:disabled {
     /*Disabled buttons*/
     background-color: transparent;
 }
-.title-31SJ6t .topic-11NuQZ {
+.title_d4ba1a .topic__16ae3 {
     /*Channel description*/
     color: rgb(var(--server-channel-textc));
 }
-.title-31SJ6t .children-3xh0VB {
+.title_d4ba1a .children_cde9af {
     /*Top bar tooltip buttons*/
     transition: 0.25s ease;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
-.title-31SJ6t:hover .children-3xh0VB {
+.title_d4ba1a:hover .children_cde9af {
     /*Top bar tooltip buttons hovered*/
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.content-3UQcSo + .footer-31IekZ .button-f2h6uQ .contents-3ca1mk {
+.content-3UQcSo + .footer-31IekZ .button__581d0 .contents-3ca1mk {
     /*Can't find camera button*/
     color: rgb(var(--server-channel-textc), 1);
 }
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
+.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f {
     /*Streamming buttons*/
     background-color: transparent;
 }

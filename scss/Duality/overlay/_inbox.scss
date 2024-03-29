@@ -1,13 +1,13 @@
 /*Inbox settings*/
 
-.container-2ebMPP {
+.container_eb737e {
     /*Main modal*/
     background: transparent;
     border-radius: var(--main-radius);
     background-color: transparent;
     box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
 }
-.container-2ebMPP::before {
+.container_eb737e::before {
     /*Main modal background*/
     content: "";
     position: absolute;
@@ -20,7 +20,7 @@
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.container-2ebMPP::after {
+.container_eb737e::after {
     /*Main modal opacity*/
     content: "";
     position: absolute;
@@ -32,13 +32,13 @@
     background-color: rgba(0, 0, 0, var(--popout-opacity));
     z-index: -1;
 }
-.icon-2yhmi8 {
+.icon_c68d99 {
     /*No messges icon*/
     background-color: transparent;
 }
-.iconContainer-33_6mP,
-.container-2ebMPP .header-3rvP-v,
-.container-2ebMPP .colorHeaderSecondary-g5teka {
+.iconContainer__58374,
+.container_eb737e .header__748f0,
+.container_eb737e .colorHeaderSecondary-g5teka {
     /*Empty messges text*/
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }

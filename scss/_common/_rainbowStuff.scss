@@ -5,7 +5,7 @@
     }
 }
 
-.wrapper-NhbLHG.modeUnread-3Cxepe .name-28HaxV {
+.wrapper__612a5.modeUnreadImportant__35358 .name__4eb92 {
     /*Rainbow animated text*/
     background: linear-gradient(
         60deg,
@@ -34,7 +34,7 @@
     /*Makes ring visible*/
     overflow: visible !important;
 }
-.item-2LIpTv[style*="height: 8px"] {
+.item_f9d377[style*="height: 8px"] {
     /*Unread server ring*/
     content: "";
     position: absolute;
@@ -59,7 +59,7 @@
     animation: unreadRainbow 4s infinite;
     transition: 0.25s ease;
 }
-.wrapper-3kah-n {
+.wrapper__8436d {
     /*Matches png server icons with default background*/
     background-color: var(--background-tertiary);
 }
