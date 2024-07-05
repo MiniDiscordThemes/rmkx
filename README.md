@@ -11,6 +11,8 @@
 [llunaplena-img]: https://i.imgur.com/dh9Ctag.png
 [poison-img]: https://i.imgur.com/0xtQq87.png
 
+# ⚠️ Discontinued due to low usage.
+
 # rmkx's Themes Fixed [![GitHub downloads][gh-dl-badge]][gh-release] ![Repo size][repo-size-badge]
 
 ***Discord updated all class names in January 2022, which caused most older themes to stop working. This fork of [rmkx's themes](https://github.com/AlinaLego/rmkx.github.io) updates the themes with the new Discord classes.***
